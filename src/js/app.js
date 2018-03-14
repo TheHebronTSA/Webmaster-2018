@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 6
         },
         "image": {
-          "src": "https://drive.google.com/uc?export=download&id=1bZL3_hGSL48RbAAD_8CTYUYSeWehPXvg",
+          "src": "src/imgs/tsaglow.png",
           "width": 250,
           "height": 100
         }
