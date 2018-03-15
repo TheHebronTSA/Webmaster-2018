@@ -26,7 +26,7 @@ particlesJS('particles-js',
         "value": "#1b1e34"
       },
       "shape": {
-        "type": "image",
+        "type": "polygon",
         "stroke": {
           "width": 0,
           "color": "#000"
@@ -35,8 +35,8 @@ particlesJS('particles-js',
           "nb_sides": 6
         },
         "image": {
-          "src": "src/imgs/tsaglow.png",
-          "width": 250,
+          "src": "img/github.svg",
+          "width": 100,
           "height": 100
         }
       },
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 160,
+        "value": 127.87212787212788,
         "random": false,
         "anim": {
           "enable": true,
@@ -69,7 +69,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 8,
+        "speed": 1.5984015984015985,
         "direction": "none",
         "random": false,
         "straight": false,
