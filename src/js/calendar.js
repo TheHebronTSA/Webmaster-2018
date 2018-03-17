@@ -41,6 +41,7 @@ function defaultEvents(dataDay,dataName,dataNotes,classTag){
 defaultEvents(today, 'YEAH!','Today is your day','important');
 
 defaultEvents('2018-01-10', 'No Chapter Meeting','Enjoy the break!','event');
+defaultEvents('2018-03-14', 'No Chapter Meeting','Enjoy the break!','event');
 defaultEvents('2018-01-17', 'Chapter Meeting','Our weekly meeting in Room 1320 during B-Block Lunch. Refreshments will be served!','birthday');
 defaultEvents('2018-01-24', 'Chapter Meeting','Our weekly meeting in Room 1320 during B-Block Lunch. Refreshments will be served!','birthday');
 defaultEvents('2018-01-31', 'Chapter Meeting','Our weekly meeting in Room 1320 during B-Block Lunch. Refreshments will be served!','birthday');
@@ -71,7 +72,7 @@ defaultEvents('2018-02-12', 'Officer Meeting','Our weekly officer meeting. Offic
 defaultEvents('2018-02-19', 'No Officer Meeting','Enjoy the break!','event');
 defaultEvents('2018-02-26', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
 defaultEvents('2018-03-05', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
-defaultEvents('2018-03-12', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
+defaultEvents('2018-03-12', 'No Officer Meeting','Enjoy the break!','event');
 defaultEvents('2018-03-19', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
 defaultEvents('2018-03-26', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
 defaultEvents('2018-04-02', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
