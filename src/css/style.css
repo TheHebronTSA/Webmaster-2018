@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: #3f458c;
   font-family: 'Lato', sans-serif;
@@ -12,6 +17,15 @@ body {
   height: 100%;
   width: 100%;
   padding: 0;
+}
+
+.splash .container {
+  padding-top: 16rem;
+  height: 100%;
+}
+
+.thin {
+  font-weight: 200;
 }
 
 @media (max-height: 600px) {
@@ -40,16 +54,11 @@ body {
 
 @media (min-height: 1050px) {
   .splash .container {
-    padding-top: 22rem;
+    padding-top: 28rem;
   }
 }
 
 #tsa {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  top: 50%;
   color: white;
   font-weight: 900;
   font-size: 7em;
@@ -117,5 +126,35 @@ body {
 
   to {
     transform: none;
+  }
+}
+
+@media (max-height: 600px) {
+  .splash .container {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .splash .container {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .splash .container {
+    padding-top: 13rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .splash .container {
+    padding-top: 16rem;
+  }
+}
+
+@media (min-height: 1050px) {
+  .splash .container {
+    padding-top: 22rem;
   }
 }
