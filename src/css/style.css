@@ -8,6 +8,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.white-block {
+  background-color: white;
+}
+
 .navbar-transparent {
   background-color: #3f458c;
 }
