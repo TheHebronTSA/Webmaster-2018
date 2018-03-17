@@ -322,3 +322,8 @@ body {
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
           transform: rotate(-135deg); }
+
+.timeline-container {
+  overflow: hidden;
+}
+          
