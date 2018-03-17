@@ -24,6 +24,10 @@ body {
   height: 100%;
 }
 
+.container {
+  height: 100%;
+}
+
 .thin {
   font-weight: 200;
 }

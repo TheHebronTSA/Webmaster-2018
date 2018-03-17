@@ -8,10 +8,15 @@
     <title>Hebron TSA | Coming Soon</title>
 
     <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./src/css/aos.css" rel="stylesheet">
     <link href="src/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
+    <script src="./src/js/aos.js"></script>
   </head>
   <body id="particles-js">
+    <script>
+      AOS.init();
+    </script>
     <div class="splash">
       <div class="container">
         <div class="row text-center">
@@ -21,8 +26,12 @@
         </div>
       </div>
     </div>
-    <div>
-      <h2>What is TSA?</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-6" data-aos="fade-right">
+          <h2>What is TSA?</h2>
+        </div>
+      </div>
     </div>
     <script src="src/js/jquery-3.2.1.slim.min.js"></script>
     <script src="src/js/popper.min.js"></script>
