@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+.navbar-trans {
+  background: transparent; 
+}
+
 body {
   background-color: #3f458c;
   font-family: 'Lato', sans-serif;
