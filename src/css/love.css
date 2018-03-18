@@ -18,6 +18,26 @@ body {
   font-size: 7em;
 }
 
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
 .hero__scroll {
   position: absolute;
   bottom: 60px;
