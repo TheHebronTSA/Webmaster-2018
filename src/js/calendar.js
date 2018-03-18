@@ -85,17 +85,17 @@ defaultEvents('2018-05-14', 'Officer Meeting','Our weekly officer meeting. Offic
 defaultEvents('2018-05-21', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
 defaultEvents('2018-05-28', 'Officer Meeting','Our weekly officer meeting. Officers will discuss logistics and ways of making the chapter thrive on a daily basis.','festivity');
 
-defaultEvents('2018-03-22', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!.','important');
-defaultEvents('2018-03-23', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!.','important');
-defaultEvents('2018-03-24', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!.','important');
-defaultEvents('2018-04-15', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!.','important');
-defaultEvents('2018-04-16', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!.','important');
-defaultEvents('2018-04-17', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!.','important');
-defaultEvents('2018-06-22', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!.','important');
-defaultEvents('2018-06-23', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!.','important');
-defaultEvents('2018-06-24', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!.','important');
-defaultEvents('2018-06-25', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!.','important');
-defaultEvents('2018-06-26', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!.','important');
+defaultEvents('2018-03-22', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!','important');
+defaultEvents('2018-03-23', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!','important');
+defaultEvents('2018-03-24', 'TSA Regional Conference @ Flower Mound High School','Let\'s get it on!','important');
+defaultEvents('2018-04-15', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!','important');
+defaultEvents('2018-04-16', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!','important');
+defaultEvents('2018-04-17', 'TSA State Conference @ Fort Worth, Texas','YEEHAW! Let\'s get it on!','important');
+defaultEvents('2018-06-22', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!','important');
+defaultEvents('2018-06-23', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!','important');
+defaultEvents('2018-06-24', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!','important');
+defaultEvents('2018-06-25', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!','important');
+defaultEvents('2018-06-26', 'TSA National Conference @ Atlanta, Georgia','A once-in-a-lifetime experience. Congrats to those who qualified. Let\'s get it on!','important');
 defaultEvents('2018-03-06', 'LISD Form Deadline','Turn in to Room 1345 during B-Block Lunch.','important');
 defaultEvents('2018-02-20', 'Competition Event Form Deadline','Bring your $3 and form to to Room 1340 during B-Block Lunch.','important');
 
