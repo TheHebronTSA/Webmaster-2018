@@ -42,6 +42,12 @@ body {
   font-weight: 200;
 }
 
+#tsa {
+  color: white;
+  font-weight: 900;
+  font-size: 7em;
+}
+
 @media (max-height: 600px) {
   .splash .container {
     padding-top: 3rem;
@@ -51,6 +57,12 @@ body {
 @media (max-height: 500px) {
   .splash .container {
     padding-top: 1rem;
+  }
+}
+
+@media (max-height: 850px) {
+  #tsa {
+    font-size: 2.5em;
   }
 }
 
@@ -70,12 +82,6 @@ body {
   .splash .container {
     padding-top: 28rem;
   }
-}
-
-#tsa {
-  color: white;
-  font-weight: 900;
-  font-size: 7em;
 }
 
 #particles-js canvas{
