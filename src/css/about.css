@@ -14,6 +14,10 @@ h1 {
   font-size: 7em;
 }
 
+ul {
+  word-break: break-all;
+}
+
 .splash {
   min-height: 40rem;
   height: 100%;
