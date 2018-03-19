@@ -52,6 +52,14 @@ body {
   font-size: 7em;
 }
 
+.nav-item {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
 @media (max-height: 600px) {
   .splash .container {
     padding-top: 3rem;
