@@ -14,10 +14,6 @@ h1 {
   font-size: 7em;
 }
 
-ul {
-  word-break: break-all;
-}
-
 .splash {
   min-height: 40rem;
   height: 100%;
@@ -37,6 +33,10 @@ ul {
 .animated {
   animation-duration: 2s;
   animation-fill-mode: both;
+}
+
+ul {
+  word-break: break-all;
 }
 
 @keyframes fadeInDown {
@@ -68,7 +68,13 @@ ul {
 }
 
 @media (max-height: 850px) {
-  h1{
+  ol {
+    word-break: break-all;
+  }
+}
+
+@media (max-height: 850px) {
+  h1 {
     font-size: 2.5em;
   }
 }
