@@ -52,6 +52,14 @@ body {
   font-size: 7em;
 }
 
+h2 {
+  padding-top: 60px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
 .nav-item {
   color: white;
 }
