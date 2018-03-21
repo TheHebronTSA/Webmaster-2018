@@ -54,10 +54,7 @@ body {
 
 h2 {
   padding-top: 60px;
-  text-transform: capitalize;
-  font-weight: 500;
   color: white;
-  text-align: center;
 }
 
 .hvr-underline-from-center {
@@ -98,6 +95,12 @@ h2 {
 
 .navbar-brand {
   color: white;
+}
+
+.subheading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 @media (max-height: 600px) {
