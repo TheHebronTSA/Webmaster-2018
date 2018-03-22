@@ -262,6 +262,7 @@ nav.navbar.inverse {
   padding-bottom: 40px;
   left: 0;
   right: 0;
+  z-index: 2;
   text-transform: uppercase; 
 }
 
