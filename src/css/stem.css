@@ -12,11 +12,6 @@ body {
   margin: 0;
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
 #particles-js canvas{
   position: fixed;
   top: 0;
@@ -47,14 +42,12 @@ body {
   min-height: 40rem;
   height: 100%;
   width: 100%;
-  z-index: -999;
   padding: 0;
 }
 
 .splash .container {
   padding-top: 10rem;
   height: 100%;
-  z-index: -1;
 }
 
 .container {
@@ -182,37 +175,38 @@ h2 {
   animation-fill-mode: both;
 }
 
-.bounceInLeft {
-  animation-name: bounceInLeft;
-}
-
-@keyframes bounceInLeft {
-  from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
   }
 
-  0% {
-    opacity: 0;
-    transform: translate3d(-3000px, 0, 0);
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
   }
 
   60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     opacity: 1;
-    transform: translate3d(25px, 0, 0);
   }
 
-  75% {
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(5px, 0, 0);
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
   }
 
   to {
-    transform: none;
+    transform: perspective(400px);
   }
 }
+
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
 
 @media (max-height: 600px) {
   .splash .container {
