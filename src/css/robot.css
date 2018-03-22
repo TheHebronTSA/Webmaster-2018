@@ -317,23 +317,6 @@ p.ref {
 	z-index: 1;
 }
 
-.demo-1 .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
-}
-
-.demo-2 .large-header {
-	background-image: url('../img/demo-2-bg.jpg');
-	background-position: center bottom;
-}
-
-.demo-3 .large-header {
-	background: #7f8c8d;
-}
-
-.demo-4 .large-header {
-	background: #f9f1e9;
-}
-
 .main-title {
 	position: absolute;
 	margin: 0;
