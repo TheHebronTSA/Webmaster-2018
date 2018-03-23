@@ -21,6 +21,10 @@ body {
   z-index: -1;
 }
 
+iframe {
+  z-index: 999;
+}
+
 .buttons {
   padding: 60px;
 }
