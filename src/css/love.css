@@ -12,6 +12,15 @@ body {
   padding: 0;
 }
 
+canvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 #love {
   color: white;
   font-weight: 900;
@@ -26,6 +35,22 @@ h2 {
 
 .white-block {
   background-color: white;
+}
+
+.splash {
+  min-height: 40rem;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.splash .container {
+  padding-top: 15rem;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
 }
 
 .hvr-underline-from-center {
@@ -164,3 +189,39 @@ h2 {
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
           transform: rotate(-135deg); }
+
+          @media (max-height: 600px) {
+            .splash .container {
+              padding-top: 3rem;
+            }
+          }
+          
+          @media (max-height: 500px) {
+            .splash .container {
+              padding-top: 1rem;
+            }
+          }
+          
+          @media (max-height: 850px) {
+            #love {
+              font-size: 4.5em;
+            }
+          }
+          
+          @media (min-height: 800px) {
+            .splash .container {
+              padding-top: 13rem;
+            }
+          }
+          
+          @media (min-height: 900px) {
+            .splash .container {
+              padding-top: 15rem;
+            }
+          }
+          
+          @media (min-height: 1050px) {
+            .splash .container {
+              padding-top: 28rem;
+            }
+          }
