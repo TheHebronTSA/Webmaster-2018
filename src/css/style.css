@@ -3,6 +3,22 @@ html, body {
   width: 100%;
 }
 
+.title {
+  margin: 3rem 0;
+}
+
+.officers img {
+  height: 250px;
+  margin: 1rem;
+  transition: all ease-in-out;
+  transition-duration: .5s;
+}
+
+.officers img:hover {
+  transform: scale(1.2);
+
+}
+
 .navbar-trans {
   background: transparent; 
 }
@@ -14,6 +30,9 @@ body {
 
 .white-block {
   background-color: white;
+  padding: 2rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
 }
 
 .shadow {
@@ -60,14 +79,6 @@ body {
 h2 {
   padding-top: 60px;
   color: white;
-}
-
-.rotate90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 
 .hvr-underline-from-center {
