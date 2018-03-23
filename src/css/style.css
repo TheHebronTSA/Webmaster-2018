@@ -52,6 +52,11 @@ body {
   font-size: 7em;
 }
 
+#chapter {
+  width: 90%;
+  height: 95%;
+}
+
 h2 {
   padding-top: 60px;
   color: white;
