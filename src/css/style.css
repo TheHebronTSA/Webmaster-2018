@@ -15,6 +15,10 @@ html, body {
   transition-duration: .5s;
 }
 
+.instructors img {
+  height: 250px;
+}
+
 .officers img:hover {
   transform: scale(1.2);
 }
