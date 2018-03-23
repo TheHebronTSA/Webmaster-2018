@@ -15,6 +15,10 @@ body {
 	padding: 60px;
 }
 
+#bot {
+	height: 300px;
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
