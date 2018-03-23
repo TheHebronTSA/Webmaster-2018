@@ -25,6 +25,14 @@ iframe {
   z-index: 999;
 }
 
+#desc {
+  margin-bottom: 2rem;
+}
+
+#timeline {
+  margin-top: 2rem;
+}
+
 .buttons {
   padding: 60px;
 }
