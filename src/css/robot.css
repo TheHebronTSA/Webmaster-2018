@@ -335,6 +335,7 @@ p.ref {
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+	font-weight: 900;
 }
 
 .demo-1 .main-title, 
