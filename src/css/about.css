@@ -14,6 +14,22 @@ h1 {
   font-size: 7em;
 }
 
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+nav.navbar.inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.navbar-transparent {
+  background-color: #000000;
+}
+
 .splash {
   min-height: 40rem;
   height: 100%;
