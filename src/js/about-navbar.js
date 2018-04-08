@@ -19,4 +19,9 @@ $(window).scroll(function() {
   } else {
     $('.navbar-toggler').removeClass('custom-toggler');
   }
+  if ($(document).scrollTop() > 50) {
+    $('.nav-link').addClass('hvr-underline-from-center-white');
+  } else {
+    $('.nav-link').removeClass('hvr-underline-from-center-white');
+  }
 });  
