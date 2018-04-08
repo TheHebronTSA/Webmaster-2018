@@ -88,6 +88,10 @@ nav.navbar.inverse {
     color: rgb(255, 255, 255); 
 }
 
+button {
+	margin-bottom: 20px;
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: translate(0, 0);
