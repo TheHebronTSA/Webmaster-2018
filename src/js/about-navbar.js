@@ -14,4 +14,9 @@ $(window).scroll(function() {
   } else {
     $('.navbar-brand').removeClass('text-white');
   }
+  if ($(document).scrollTop() > 50) {
+    $('.navbar-toggler').addClass('custom-toggler');
+  } else {
+    $('.navbar-toggler').removeClass('custom-toggler');
+  }
 });  
