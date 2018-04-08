@@ -19,6 +19,22 @@ body {
 	height: 300px;
 }
 
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+nav.navbar.inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.navbar-transparent {
+  background-color: #000000;
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -180,7 +196,6 @@ p.ref {
 	line-height: 1.4;
 }
 
-/* To Navigation Style */
 .codrops-top {
 	width: 100%;
 	text-transform: uppercase;
