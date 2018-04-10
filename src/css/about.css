@@ -149,6 +149,14 @@ ul {
   right: 0;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+
 @keyframes fadeInDown {
   from {
       opacity: 0;
