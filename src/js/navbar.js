@@ -4,4 +4,8 @@ $(window).scroll(function() {
     } else {
       $('nav').removeClass('inverse');
     }
-  });  
+  }); 
+
+  $('button').click(function(){
+    $('nav').toggleClass('inverse');
+  });
