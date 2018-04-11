@@ -1,7 +1,7 @@
 /* ============ TIMELINER.JS ============= */
 .timeline-container {
   border-left: 2px solid #ccc;
-  margin: 20px auto;
+  margin: 100px auto;
   width: 900px;
 }
 .timeline-toggle {
@@ -25,11 +25,11 @@
   width: 900px;
 }
 .timeline-wrapper h2 {
-  background: url(../images/timeline_century_tick.gif) left center no-repeat;
-  font-family: Palatino, "Times New Roman", Times, serif;
+  background: url(../imgs/timeline_century_tick.gif) left center no-repeat;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   cursor: pointer;
   font-size: 3em;
-  font-weight: 400;
   margin: 0 0 10px;
   padding: 4px 4px 4px 20px;
 }
@@ -52,7 +52,7 @@
   width: 880px;
 }
 .timeline-series dt {
-  background: url(../images/timeline_decade_tick.gif) left center no-repeat;
+  background: url(../imgs/timeline_decade_tick.gif) left center no-repeat;
   clear: left;
   font-size: 1.6em;
   list-style-type: none;
