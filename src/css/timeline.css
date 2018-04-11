@@ -1,16 +1,15 @@
 body {
   background: linear-gradient(210deg, #070324, #1f155d, #3359a2, #5b74a3);
-  background-size: 800% 800%;
+  background-size: 1000% 1000%;
   font-family: 'Lato', sans-serif;
   color: white;
 }
 
 .animate-background {
-  z-index: 99;
-  -webkit-animation: background-gradient 100s ease infinite;
-  -moz-animation: background-gradient 100s ease infinite;
-  -o-animation: background-gradient 100s ease infinite;
-  animation: background-gradient 100s ease infinite;
+  -webkit-animation: background-gradient 120s ease infinite;
+  -moz-animation: background-gradient 120s ease infinite;
+  -o-animation: background-gradient 120s ease infinite;
+  animation: background-gradient 120s ease infinite;
 }
 
 .custom-toggler.navbar-toggler {
@@ -70,21 +69,21 @@ body {
 
 @-webkit-keyframes background-gradient {
   0%{background-position:90% 0%}
-  50%{background-position:11% 100%}
+  50%{background-position:10% 100%}
   100%{background-position:90% 0%}
 }
 @-moz-keyframes background-gradient {
   0%{background-position:90% 0%}
-  50%{background-position:11% 100%}
+  50%{background-position:10% 100%}
   100%{background-position:90% 0%}
 }
 @-o-keyframes background-gradient {
   0%{background-position:90% 0%}
-  50%{background-position:11% 100%}
+  50%{background-position:10% 100%}
   100%{background-position:90% 0%}
 }
 @keyframes background-gradient {
   0%{background-position:90% 0%}
-  50%{background-position:11% 100%}
+  50%{background-position:10% 100%}
   100%{background-position:90% 0%}
 }
