@@ -76,12 +76,17 @@ h2 {
 }
 
 .splash .container {
-  padding-top: 15rem;
+  padding-top: 10rem;
   height: 100%;
 }
 
 .container {
   height: 100%;
+  z-index: 2;
+}
+
+img {
+  height: 300px;
 }
 
 .hvr-underline-from-center {
