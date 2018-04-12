@@ -25,7 +25,7 @@
   width: 900px;
 }
 .timeline-wrapper h2 {
-  background: url(../imgs/timeline_century_tick.gif) left center no-repeat;
+  background: url(../imgs/timeline/timeline_century_tick.gif) left center no-repeat;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   cursor: pointer;
@@ -52,7 +52,7 @@
   width: 880px;
 }
 .timeline-series dt {
-  background: url(../imgs/timeline_decade_tick.gif) left center no-repeat;
+  background: url(../imgs/timeline/timeline_decade_tick.gif) left center no-repeat;
   clear: left;
   font-size: 1.6em;
   list-style-type: none;
