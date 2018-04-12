@@ -6,10 +6,10 @@ body {
 }
 
 .animate-background {
-  -webkit-animation: background-gradient 120s ease infinite;
-  -moz-animation: background-gradient 120s ease infinite;
-  -o-animation: background-gradient 120s ease infinite;
-  animation: background-gradient 120s ease infinite;
+  -webkit-animation: background-gradient 100s ease infinite;
+  -moz-animation: background-gradient 100s ease infinite;
+  -o-animation: background-gradient 100s ease infinite;
+  animation: background-gradient 100s ease infinite;
 }
 
 .custom-toggler.navbar-toggler {
@@ -65,6 +65,26 @@ body {
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
+}
+
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+nav.navbar.inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.navbar-transparent {
+  background-color: #000000;
+}
+
+img {
+  height: 250px;
 }
 
 @-webkit-keyframes background-gradient {
