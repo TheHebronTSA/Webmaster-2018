@@ -12,6 +12,22 @@ body {
   padding: 0;
 }
 
+.splash iframe {
+  width: 30rem;
+  height: 15rem;
+}
+
+@media (max-width: 531px) {
+  .splash iframe {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .splash div h1#love {
+    font-size: 2.5rem;
+  }
+}
+
 .navbar-trans {
   background: transparent;
 }
