@@ -6,6 +6,7 @@ html, body {
 body {
   background: #000;
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 .custom-toggler.navbar-toggler {
@@ -94,10 +95,6 @@ nav.navbar.inverse {
 .container {
   height: 100%;
   z-index: 2;
-}
-
-h1 {
-  color: white;
 }
 
 .hero__scroll {
