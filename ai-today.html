@@ -16,14 +16,303 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3f458f">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
-
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link href="src/css/bootstrap.min.css" rel="stylesheet">
     <link href="./src/css/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
     <script src="./src/js/aos.js"></script>
     <link rel="stylesheet" href="src/css/ai-today.css">
 </head>
+<style>
+.ai_label{
+position: absolute;
+    font-size: 6em;
+    margin-left: 15%;
+    margin-top: 26%;
+	}
 
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+.globe
+{
+     width: 92%;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+	.globe
+{
+     width: 92%;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+.globe
+{
+     width: 92%;
+}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+.globe
+{
+     /* width: 92%; */
+	width: 95%;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 565px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+	
+	.globe
+{
+    height: 75%;
+    margin-left: 27px;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+.ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}
+.globe
+{
+     width: 92%;
+}	
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+  .globe
+{
+     width: 92%;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+	
+.globe
+{
+  width: 97%;
+  height: 85%;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+.globe
+{
+     width: 92%;
+}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+	
+	.globe
+{
+     width: 92%;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+.ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+     margin-top: 68%;
+	}	
+	
+	.globe
+{
+     width: 92%;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+.ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+	
+.globe
+{
+     width: 92%;
+}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  .ai_label{
+position: absolute;
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 68%;
+	}	
+	
+.globe
+{
+     width: 92%;
+	 height: 98%;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}	
+	
+</style>
 <body>
   <script>
       AOS.init();
@@ -66,7 +355,7 @@
       <div class="container">
           <div class="row text-center">
               <div class="col-12">
-                  <h1>AI in Today's World</h1>
+                  <h1 class="ai_label">AI in Today's World</h1>
               </div>
               <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800"><br>
             <i class="chevron bottom"></i>
@@ -95,34 +384,35 @@
     <div class="row">
       <h2 data-aos="zoom-in-down">Google Assistant</h2>
     </div>
-    <div class="row">
-      <div class="col-6">
+    <div class="clearfix">
+         <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
+            <img src="src/imgs/ai-today/assistant.png" alt="Google Assistant" height="200px" data-aos="fade-left">
+         </div>
+      <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
         <p data-aos="fade-right">Google Assistant was a personal assistant introduced by google in 2016. The app was initially available for Google devices and eventually introduced to Apple devices. Tasks such as setting timers, searching the internet, and scheduling events can be completed by the device. The Google Assistant is able to converse with the user which assists with communication.  An app as well as a home speaker is available for use.</p>
-      </div>
-      <div class="col-6">
-        <img src="src/imgs/ai-today/assistant.png" alt="Google Assistant" height="200px" data-aos="fade-left">
-      </div>
+      </div>     
+      
     </div>
     <div class="row">
         <h2 data-aos="zoom-in-down">IBM Watson</h2>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <p data-aos="fade-right">IBM Watson was introduced in 2010 and allowed for the answering of information based questions. When created, IBM stated that, "more than 100 different techniques are used to analyze natural language, identify sources, find and generate hypotheses, find and score evidence, and merge and rank hypotheses. Watson has many commercial uses, such as helping business optimize their operations. The biggest accomplishment for the robot was the participation</p>
-        </div>
-        <div class="col-6">
+      <div class="clearfix">
+        <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
           <img src="src/imgs/ai-today/watson.jpg" alt="IBM Watson" height="200px" data-aos="fade-left">
+        </div>
+        <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
+          <p data-aos="fade-right">IBM Watson was introduced in 2010 and allowed for the answering of information based questions. When created, IBM stated that, "more than 100 different techniques are used to analyze natural language, identify sources, find and generate hypotheses, find and score evidence, and merge and rank hypotheses. Watson has many commercial uses, such as helping business optimize their operations. The biggest accomplishment for the robot was the participation</p>
         </div>
       </div>
       <div class="row">
           <h2 data-aos="zoom-in-down">Uber Self-Driving Cars</h2>
         </div>
-        <div class="row">
-          <div class="col-6">
-              <p data-aos="fade-right">Self-driving cars are vehicles that can assess the environment and drive on its on own. Many companies have attempted to use the vehicle and the most notable being Uber. Uber has sent out the car to many cities in the United States as part of their arsenal of taxis. Generally autonomous vehicles have a lot of sensory equipment, Uber’s self driving cars are no different. With multiple sensors on the hood and inside the car, the automobile can effectively and safely traverse through many roads.</p>
+        <div class="clearfix">
+          <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
+              <img src="src/imgs/ai-today/uber.jpg" alt="Uber Self-Driving Car" height="100px" data-aos="fade-left">
           </div>
-          <div class="col-6">
-            <img src="src/imgs/ai-today/uber.jpg" alt="Uber Self-Driving Car" height="200px" data-aos="fade-left">
+          <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
+            <p data-aos="fade-right">Self-driving cars are vehicles that can assess the environment and drive on its on own. Many companies have attempted to use the vehicle and the most notable being Uber. Uber has sent out the car to many cities in the United States as part of their arsenal of taxis. Generally autonomous vehicles have a lot of sensory equipment, Uber’s self driving cars are no different. With multiple sensors on the hood and inside the car, the automobile can effectively and safely traverse through many roads.</p>
           </div>
       </div>
   </div>
