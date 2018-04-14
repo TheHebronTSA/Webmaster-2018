@@ -213,33 +213,22 @@
                         
                             <div id="flat">
                                 <ul>
-                                    <li data-flip-title="Red">
-                                    </li>
-                                    <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+                                    <li data-flip-title="1" data-flip-category="Purples">
                                         <img src="src/imgs/meldrum.jpg">
                                      </li>
-                                    <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                                    <li data-flip-title="2" data-flip-category="Purples">
                                             <img src="src/imgs/meldrum.jpg">
                                     </li>
-                                    <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+                                    <li data-flip-title="3" data-flip-category="Purples">
                                             <img src="src/imgs/meldrum.jpg">
                                     </li>
-                                    <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+                                    <li data-flip-title="4" data-flip-category="Blues">
                                             <img src="src/imgs/meldrum.jpg">
                                     </li>
-                                    <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+                                    <li data-flip-title="5" data-flip-category="Blues">
                                             <img src="src/imgs/meldrum.jpg">
                                     </li>
-                                    <li data-flip-title="Cyan" data-flip-category="Blues">
-                                            <img src="src/imgs/meldrum.jpg">
-                                    </li>
-                                    <li data-flip-title="Robin's Egg" data-flip-category="Blues">
-                                            <img src="src/imgs/meldrum.jpg">
-                                    </li>
-                                    <li data-flip-title="Deep Sea" data-flip-category="Greens">
-                                            <img src="src/imgs/meldrum.jpg">
-                                    </li>
-                                    <li data-flip-title="Apple" data-flip-category="Greens">
+                                    <li data-flip-title="6" data-flip-category="Blues">
                                             <img src="src/imgs/meldrum.jpg">
                                     </li>
                                 </ul>
@@ -250,10 +239,14 @@
                                 style: 'flat',
                                 spacing: -0.25,
                                 buttons: true,
+                                onItemSwitch: function(currentItem, previousItem){
+                                    $('.para').hide();
+                                    $('.para-'+currentItem.dataset.flipTitle).show();
+                                }
                             });
                         </script>
             </article>
-            <div class="white-block shadow">
+            <div class="white-block shadow para para-1">
                 <h1>Ms. Meldrum</h1>
                 <p>
                         STEM is an important asset for schools because it exposes students to career
@@ -263,7 +256,7 @@
                         pursue realized passions for different subjects.
                 </p>
             </div>
-            <div class="white-block shadow">
+            <div class="white-block shadow para para-2">
                     <h1>Dr. Holley</h1>
                     <p>
                             I teach Pre-AP Physics, AP Physics 2, AP Physics C: Mechanics, and AP Physics C: Electricity and Magnetism. AP Physics C is the highest level physics course available at Hebron High School; routine use of calculus to solve problems is the hallmark of this course.
@@ -273,7 +266,7 @@
                             We don't exist without STEM.
                     </p>
                 </div>
-                            <div class="white-block shadow">
+                            <div class="white-block shadow para para-3">
                     <h1>Mr. Stites</h1>
                     <p>
                             “Computer science embraces problem solving, hardware, algorithms, and perspectives that help people utilize computers to address real-world problems in contemporary life.”
@@ -283,7 +276,7 @@
                             STEM is critical because the number of STEM jobs in the United Sates will grow by 14% from 2010 to 2020, according to the US Deparment of Education. This is a much greater rate that the national average of 5-8% across all other job sectors.
                     </p>
                 </div>
-                <div class="white-block shadow">
+                <div class="white-block shadow para para-4">
                         <h1>Mr. Rodgers</h1>
                         <p>
                                 STEM is necessary for the general well being and economy of our world. In order to meet high demand for contributing and fulfilling STEM careers, it’s very important that students explore and pursue STEM courses from an early age.
@@ -292,19 +285,13 @@
                                 Involved in many engineering ventures that students can partake. Assignments are given and are shared with the class or, on most occasions, just shared with the teacher. Give students the opportunity to blossom interest in engineering as a career path.                                
                         </p>
                     </div>
-                    <div class="white-block shadow">
+                    <div class="white-block shadow para para-5">
                             <h1>Mr. Flores</h1>
                             <p>
                                     I teach Pre-AP Algebra II and Precalculus. Algebra II teaches students about various functions and how to solve equations involving those functions. Students also learn how to apply functions and their properties and graphs to real-life situations. Precalculus prepares students to take Calculus by providing an advanced study of algebra and an introduction to trigonometry, trigonometric functions, and trigonometric identities. I believe that STEM is important because the world is growing increasingly more connected through technology and careers in STEM fields are necessary to maintain that growth and innovation.
                             </p>
                         </div>
-                        <div class="white-block shadow">
-                                <h1>Mr. Flores</h1>
-                                <p>
-                                        I teach Pre-AP Algebra II and Precalculus. Algebra II teaches students about various functions and how to solve equations involving those functions. Students also learn how to apply functions and their properties and graphs to real-life situations. Precalculus prepares students to take Calculus by providing an advanced study of algebra and an introduction to trigonometry, trigonometric functions, and trigonometric identities. I believe that STEM is important because the world is growing increasingly more connected through technology and careers in STEM fields are necessary to maintain that growth and innovation.
-                                </p>
-                            </div>
-                            <div class="white-block shadow">
+                            <div class="white-block shadow para para-6">
                                     <h1>Ms. Cone</h1>
                                     <p>
                                             I feel STEM classes are extremely important as ALL students need to have a basic understanding of the world around them and the basics laws governing nature. This makes them more educated, productive citizens and smarter consumers. Also STEM classes utilize learning from other content areas such as English, Mathematics, and History. STEM classes tend to put into practice learning from the other core areas so that students see the practical application of material they learned elsewhere.

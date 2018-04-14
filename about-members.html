@@ -121,27 +121,27 @@
             <article id="demo-flat" class="demo white-block">
                 <div id="flat">
                     <ul>
-                        <li>
+                        <li data-flip-title="1">
                           <a data-fancybox="images" href="src/imgs/extracurriculars/cricket2.JPG">
                             <img src="src/imgs/extracurriculars/smaller/cricket2.jpg">
                           </a>
                         </li>
-                        <li>
+                        <li data-flip-title="2">
                             <a data-fancybox="images" href="src/imgs/extracurriculars/dance.JPG">
                               <img src="src/imgs/extracurriculars/smaller/dance.jpg">
                             </a>
                         </li>
-                        <li>
+                        <li data-flip-title="3">
                           <a data-fancybox="images" href="src/imgs/extracurriculars/bagpipes.jpg">
                             <img src="src/imgs/extracurriculars/smaller/bagpipes.jpg">
                           </a>
                         </li>
-                        <li>
+                        <li data-flip-title="4">
                             <a data-fancybox="images" href="src/imgs/extracurriculars/TSA-goes-to-LA.JPG">
                               <img src="src/imgs/extracurriculars/smaller/TSA-goes-to-LA.jpg">
                             </a>
                         </li>
-                        <li>
+                        <li data-flip-title="5">
                             <a data-fancybox="images" href="src/imgs/extracurriculars/NHS.jpg">
                               <img src="src/imgs/extracurriculars/smaller/NHS.jpg">
                             </a>
@@ -153,9 +153,38 @@
                         style: 'flat',
                         spacing: -0.25,
                         buttons: true,
+                        onItemSwitch: function(currentItem, previousItem){
+                            $('.para').hide();
+                            $('.para-'+currentItem.dataset.flipTitle).show();
+                        }
                     });
                 </script>
             </article>
+            <div class="white-block shadow para para-1">
+                <h3>
+                        Along with participating in Flight Endurance and Music Production every competitive season, Ryan loves to play cricket with the Dallas Youth Cricket League on Saturday.
+                </h3>
+            </div>
+            <div class="white-block shadow para para-2">
+                <h3>
+                        Divya, a past TSA National Conference qualifier in the SciVis event, is passionate about classical Indian dance.
+                </h3>
+            </div>
+            <div class="white-block shadow para para-3">
+                <h3>
+                        Not only is Eeshaan a member of this Webmaster group, he's a member of his community's pipes and drums ensemble, too.
+                </h3>
+            </div>
+            <div class="white-block shadow para para-4">
+                <h3>
+                        Ammar (along with 3 other TSA members) recently visited Pasadena, California for the National Jubilee Arts Festival, showcasing their talents in front of a global audience.
+                </p>
+            </div>
+            <div class="white-block shadow para para-5">
+                <h3>
+                        3 out of 6 Hebron National Society Officers are Hebron TSA Members.
+                </h3>
+            </div>
         </div>    
     </div>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

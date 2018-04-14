@@ -370,3 +370,7 @@ nav.navbar.inverse {
   -ms-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+
+.para-1, .para-2, .para-3, .para-5, .para-6, .para-7{
+  display: none;
+}
