@@ -12,6 +12,12 @@ body {
   padding: 0;
 }
 
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .splash iframe {
   width: 30rem;
   height: 15rem;
@@ -37,6 +43,7 @@ nav.navbar {
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  width: 100vw;
 }
 
 nav.navbar.inverse {
