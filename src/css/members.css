@@ -41,6 +41,10 @@ iframe {
   margin-top: 2rem;
 }
 
+tr, th {
+  padding-right: 10px;
+}
+
 .buttons {
   padding: 60px;
 }
