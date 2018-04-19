@@ -3,7 +3,7 @@ var questions = [
   'Where are you from?',
   'What\'s your age?',
   'What is your favorite movie?',
-  `It was nice talking you :)`
+  'It was nice talking you :)'
 ];
 
 var waitTimeInMilliseconds = 2300;
