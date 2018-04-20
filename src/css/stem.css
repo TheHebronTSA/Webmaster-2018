@@ -91,13 +91,15 @@ button {
   font-weight: 200;
 }
 
-#tsa {
+#stem {
+  font-family: 'Montserrat', 'Lato', sans-serif;
   color: white;
   font-weight: 900;
   font-size: 7em;
 }
 
 h2 {
+  font-family: 'Montserrat', 'Lato', sans-serif;
   padding-top: 60px;
   color: white;
 }
@@ -170,7 +172,7 @@ h2 {
 }
 
 @media (max-height: 850px) {
-  #tsa {
+  #stem {
       font-size: 4.5em;
  }
 }
@@ -211,7 +213,7 @@ h2 {
   animation-fill-mode: both;
 }
 
-@keyframes pulse {
+@keyframes pulse-header {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -225,8 +227,8 @@ h2 {
   }
 }
 
-.pulse {
-  animation-name: pulse;
+.pulse-header {
+  animation-name: pulse-header;
 }
 
 @media (max-height: 600px) {
@@ -264,6 +266,7 @@ nav.navbar {
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-family: 'Montserrat', 'Lato', sans-serif;
 }
 
 nav.navbar.inverse {

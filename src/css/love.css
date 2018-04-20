@@ -43,7 +43,7 @@ nav.navbar {
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  width: 100vw;
+  font-family: 'Montserrat', 'Lato', sans-serif;
 }
 
 nav.navbar.inverse {
@@ -75,12 +75,14 @@ canvas {
 }
 
 #love {
+  font-family: 'Montserrat', 'Lato', sans-serif;
   color: white;
   font-weight: 900;
   font-size: 7em;
 }
 
 h2 {
+  font-family: 'Montserrat', 'Lato', sans-serif;
   padding-top: 60px;
   color: white;
   text-align: center;
