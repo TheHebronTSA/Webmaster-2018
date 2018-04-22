@@ -212,6 +212,10 @@ button {
 	font-weight: 200;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title, 
 	.demo-3 .main-title,

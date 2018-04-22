@@ -63,6 +63,10 @@ nav.navbar.inverse {
   animation-fill-mode: both;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 ul {
   word-break: break-all;
 }

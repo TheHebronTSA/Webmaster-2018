@@ -9,6 +9,10 @@ body {
   color: white;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: #fff;
 }

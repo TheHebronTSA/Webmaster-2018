@@ -85,6 +85,10 @@ body {
   font-weight: 200;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 #tsa {
   color: white;
   font-family: 'Montserrat', 'Lato', sans-serif;

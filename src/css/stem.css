@@ -91,6 +91,10 @@ button {
   font-weight: 200;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 #stem {
   font-family: 'Montserrat', 'Lato', sans-serif;
   color: white;

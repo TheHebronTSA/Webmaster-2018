@@ -12,6 +12,10 @@ body {
   animation: background-gradient 70s ease infinite;
 }
 
+.thicc {
+  font-weight: 700;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: #fff;
 }
