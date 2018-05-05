@@ -93,11 +93,12 @@ button {
 }
 
 .thicc {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 #tsa {
   color: white;
+  font-family: 'Montserrat', 'Lato', sans-serif;
   font-weight: 900;
   font-size: 7em;
 }
@@ -310,6 +311,7 @@ nav.navbar {
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-family: 'Montserrat', 'Lato', sans-serif;
 }
 
 nav.navbar.inverse {
