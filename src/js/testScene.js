@@ -10,22 +10,12 @@ renderer.setClearColor(0xfff6e6);
 document.body.appendChild(renderer.domElement);
 
 
-var geometry = new THREE.IcosahedronGeometry(20, 0);
-var material = new THREE.MeshLambertMaterial({color: 0xfd59d7})
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
+var loader = new THREE.ColladaLoader();
+loader.load('..src/3dModels/model.dae',function(result){scene.add(result.scene);});
 
 
 
 var light = new THREE.PointLight(0xFFFF00);
 light.position.set(10, 0, 25);
 scene.add(light);
-var controls = new THREE.OrbitControls(camera);
-controls.update()
-
-function animate()
-{
-    requestAnimationFrame(animate);
-    controls.update();
-    renderer.render(scene,camera);
-}
+renderer.render(scene,camera);
