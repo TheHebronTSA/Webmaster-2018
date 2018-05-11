@@ -41,7 +41,7 @@ iframe {
   margin-top: 2rem;
 }
 
-tr, th {
+tr, th,td{
   padding-right: 10px;
 }
 
