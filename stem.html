@@ -1,353 +1,251 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="An overview of the STEM Program at Hebron High School.">
-    <meta name="author" content="Eeshaan Pirani">
-
-    <title>Hebron TSA | STEM @ Hebron</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3f458f">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/css/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,900" rel="stylesheet">
-    <script src="./src/js/aos.js"></script>
-    <script src="./src/js/jquery-3.3.1.min.js"></script>
-    <link href="./src/css/jquery.fancybox.min.css" rel="stylesheet">
-    <script src="src/js/jquery.flipster.min.js"></script>
-    <link href="./src/css/jquery.flipster.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/stem.css">
+	<meta charset="UTF-8">
+	<meta content="width=device-width" name="viewport">
+	<meta content="An overview of the STEM Program at Hebron High School." name="description">
+	<meta content="Eeshaan Pirani" name="author">
+	<title>Hebron TSA | STEM @ Hebron</title>
+	<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/site.webmanifest" rel="manifest">
+	<link href="/safari-pinned-tab.svg" rel="mask-icon">
+	<meta content="#2b5797" name="msapplication-TileColor">
+	<meta content="#ffffff" name="theme-color">
+	<link href="src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./src/css/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,900" rel="stylesheet">
+	<script src="./src/js/aos.js">
+	</script>
+	<script src="./src/js/jquery-3.3.1.min.js">
+	</script>
+	<link href="./src/css/jquery.fancybox.min.css" rel="stylesheet">
+	<script src="src/js/jquery.flipster.min.js">
+	</script>
+	<link href="./src/css/jquery.flipster.min.css" rel="stylesheet">
+	<link href="src/css/stem.css" rel="stylesheet">
 </head>
-
 <body id="particles-js">
-    <script>
-        AOS.init();
-    </script>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
-        <a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                            <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about-members.html">MEMBERS</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="about-members.html">About Our Members</a>
-                                <a class="dropdown-item" href="members.html">Help for Members</a>
-                            </div>
-                        </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
-                </li>
-                <li class="nav-item dropdown">
-                        <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="robot.html">ROBOTS AND AI</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="timeline.html">History</a>
-                                <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
-                                <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
-                          </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="splash">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1 class="animated pulse-header" id="stem">STEM @ HEBRON</h1>
-                </div>
-                <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800"><br>
-              <i class="chevron bottom"></i>
-            </span>
-            </div>
-        </div>
-    </div>
-    <div class="container text-center buttons" id="main">
-        <div class="row" data-aos="fade-right">
-            <p class="white-block shadow" id="desc">STEM at Hebron has always been one of the school's strong suits. The Science and Math departments at Hebron are some of the best in the district. The teachers instill a tenacious work ethic into the students through the rigor of the courses. The classes prepare Hebron students for success in the post-secondary level by offering students difficulty that parallels what they may see at the college level. The Engineering and Technology sections of Hebron are more focused toward skill-development and helping kids choose a career path. Not only do the students learn handy skills such as coding or basic typing classes, but they can also learn more advanced mechanisms in relation with architecture or graphic design. STEM at Hebron is really designed to assist students achieve success in future endeavours.</p>
-        </div>
-        <div class="row mb-4 white-block shadow">
-                <div class="col-6 col-lg-4">
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/board.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/board.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/chem.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/chem.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/iMac.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/iMac.jpg"/>
-                    </a>         
-                </div>
-                <div class="col-6 col-lg-4">
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/kennet.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/kennet.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/diversity.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/diversity.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/market-robot.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/market-robot.jpg"/>
-                    </a>
-                </div>
-                <div class="col-6 col-lg-4">
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/woah.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/woah.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/techy-stuff.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/techy-stuff.jpg"/>
-                    </a>
-                    <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/books.JPG">
-                        <img class="img-fluid shadow" src="src/imgs/STEM/smaller/books.jpg"/>
-                    </a>
-                </div>
-            </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#science" data-aos="fade">
-            SCIENCE
-        </button>
-        <div class="modal fade" id="science">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Science Courses at Hebron</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <h5>AP Chemistry</h5>
-                        <p>This 36-week advanced-level course is designed to provide a comprehensive first-year college-level chemistry experience. Emphasis is placed on preparation for the Advanced Placement Chemistry exam. In addition, students partake in labs and other related activities that provide a further understanding.</p>
-
-                        <h5>Medical Terminology</h5>
-                        <p>This course is a Latin and Greek language-based class that studies the structure of medical terminology. Employability skills are emphasized. This is a fast-paced class that encourages collaborative, as well as independent learning. Requires good attendance and a motivated learner.</p>
-
-                        <h5>Anatomy and Physiology</h5>
-                        <p>A study of the structure and function of human anatomy, including the neuroendocrine, integumentary, and musculoskeletal, digestive, urinary, reproductive, respiratory, and circulatory systems. Content may be either integrated or specialized.</p>
-
-                        <h5>Medical Microbiology</h5>
-                        <p>This course offers an in-depth study of viruses, bacteria, fungi, and protists. Emphasis is on the knowledge of relationships between microbes and health maintenance and the role of microbes in infectious disease.</p>
-
-                        <h5>Pathophysiology</h5>
-                        <p>This course offers a study in the mechanisms and processes of pathology. Emphasis will be placed on knowing a variety of human diseases and the effects of disease prevention and control.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#technology" data-aos="fade">
-            TECHNOLOGY
-        </button>
-        <div class="modal fade" id="technology">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Technology Courses at Hebron</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <h5>Computer Programming I (9-12)</h5>
-                        <p>Students participate in a coding class in which they learn fundamental coding functions. Codes range from simple to complex and allow for a deeper understanding of the nuances of programing.</p>
-
-                        <h5>Computer Programming II (9-12)</h5>
-                        <p>An extension of Computer Programing I. Students approach more complex codes and coding systems. Assignments are comparably more difficult than the first edition of the class.</p>
-
-                        <h5>AP Computer Science (10-12)</h5>
-                        <p>Preparatory class for the AP Computer Science exam. Students are given more independent assignments and participate in many labs. Prerequisite knowledge of programming or enrollment in a previous programming class recommended. </p>
-
-                        <h5>Digital Media (9-12)</h5>
-                        <p>Students will engage in the use of various forms of media, ranging from many computer programs that are offered. Allow for kids to garner a deeper understanding of the many manipulations of media.</p>
-
-                        <h5>Graphic Design and Illustration I (10-12)</h5>
-                        <p>This entry-level course is for training in the visual communication portion of all media businesses. Here you can learn about a career in the many kinds of media and graphic design and illustration jobs. Digital photography and working towards the intermediate level use of image editing and drawing programs are strongly focused upon in this class. This is helpful for any future photographer, videographer, animator or advertiser.</p>
-
-                        <h5>Web Technologies (9-12)</h5>
-                        <p>This course provides opportunity to learn about the hardware, software, and connectivity of networks associated with the World Wide Web. Students will create web pages using HTML and graphics software. Students will use digital cameras and scanners to create web page graphics. Students will use the Internet as a research tool.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#engineering" data-aos="fade">
-            ENGINEERING
-        </button>
-        <div class="modal fade" id="engineering">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Engineering Courses at Hebron</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <h5>Engineering Design and Presentation (9-12)</h5>
-                        <p>Involved in many engineering ventures that students can partake. Assignments are given and are shared with the class or, on most occasions, just shared with the teacher. Give students the opportunity to blossom interest in engineering as a career path.</p>
-
-                        <h5>Engineering Design and Problem Solving (Bioscience)</h5>
-                        <p>In Engineering Design and Problem Solving for the Biosciences, students explore bioscience engineering using their math, science, and biotechnology backgrounds to solve engineering problems in the life science field. Students engaged in experiments and hands-on activities at least 40% of the time.</p>
-
-                        <h5>Engineering Design and Problem Solving (Digital Electronics)</h5>
-                        <p>In Engineering Design and Problem Solving for Digital Electronics, students apply knowledge from previous mathematics, science, and engineering courses to develop problem-solving skills using Digital Electronics. Students engage in skill development and hands-on activities at least 40% of the time. Special emphasis is placed on current trends in technology including robotics and circuit simulation.</p>
-
-                        <h5>Engineering Mathematics</h5>
-                        <p>Engineering Mathematics is a course where students solve and model robotic design problems. Students use a variety of mathematical methods and models to represent and analyze problems involving data acquisition, spatial applications, electrical measurement, manufacturing processes, and materials engineering.</p>
-
-                        <h5>Robotics</h5>
-                        <p>In Robotics, students build a knowledge base for working with computer-controlled devices. Students use the engineering design process to create prototypes, test, analyze, and improve designs. The focus is on basic robot construction and programming for robotic control. This is a project-based environment that requires students to build prototypes or use simulation software to test designs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#math" data-aos="fade">
-            MATHEMATICS
-        </button>
-        <div class="modal fade" id="math">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Mathematics Courses at Hebron</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <h5>Algebra 1</h5>
-                        <p>In Algebra I, students will study linear, quadratic, and exponential functions and their related transformations, equations, and associated solutions. In addition, students will study polynomials of degree one and two, radical expressions, sequences, and laws of exponents.</p>
-
-                        <h5>Geometry</h5>
-                        <p>In Geometry, students will explore concepts covering coordinate and transformational geometry; logical argument and constructions; proof and congruence; similarity, proof, and trigonometry; two- and three-dimensional figures; circles; and probability.</p>
-
-                        <h5>AP Calculus AB</h5>
-                        <p>In this rigorous course, students will examine graphs, functions, derivatives, integrals, continuity, and many other aspects pertaining to single variables. This course is designed to develop mathematical knowledge conceptually and students are guided to connect topics and representations throughout the course to accurately solve diverse types of problems.</p>
-
-                        <h5>AP Statistics</h5>
-                        <p>In this course students will broaden their knowledge of variability and statistical processes. Students will also study sampling and experimentation, categorical and quantitative data, probability and random variables, inference, and bivariate data.</p>
-
-                        <h5>Mathematical Models with Applications</h5>
-                        <p>This mathematics course provides a path for students to succeed in Algebra II and prepares them for various post-secondary choices. Students learn to apply mathematics through experiences in personal finance, science, engineering, fine arts, and social sciences.</p>
-
-                        <h5>Foundations of College Mathematics</h5>
-                        <p>Students will study linear, quadratic, polynomial, rational and radical expressions, equations, and functions as well as probability and statistics. Foundations for College Math is designed to help students meet college entrance requirements (TSI testing) and to be ready for entry-level college math coursework.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="row white-block shadow text-center" id="timeline">
-                <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=14JtEB2V5jglwZ5Ho-xkfApbmMgUjwdVkxrYhgESpgvM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-            </div>
-            <article>
-                    <article id="demo-flat" class="demo">
-
-                            <h2>STEM Teachers</h2>
-                        
-                            <div id="flat">
-                                <ul>
-                                    <li data-flip-title="1">
-                                        <img src="src/imgs/meldrum.jpg">
-                                     </li>
-                                    <li data-flip-title="2">
-                                            <img src="src/imgs/holley.jpg">
-                                    </li>
-                                    <li data-flip-title="3">
-                                            <img src="src/imgs/stites.jpg">
-                                    </li>
-                                    <li data-flip-title="4">
-                                            <img src="src/imgs/rodgers.jpg">
-                                    </li>
-                                    <li data-flip-title="5">
-                                            <img src="src/imgs/flores.jpg">
-                                    </li>
-                                    <li data-flip-title="6">
-                                            <img src="src/imgs/cone.jpg">
-                                    </li>
-                                </ul>
-                            </div>
-                        
-                        <script>
-                            var flat = $("#flat").flipster({
-                                style: 'flat',
-                                spacing: -0.25,
-                                buttons: true,
-                                onItemSwitch: function(currentItem, previousItem){
-                                    $('.para').hide();
-                                    $('.para-'+currentItem.dataset.flipTitle).show();
-                                }
-                            });
-                        </script>
-            </article>
-            <div class="white-block shadow para para-1">
-                <h1>Ms. Meldrum</h1>
-                    <p>
-                            STEM is an important asset for schools because it exposes students to career
-                            opportunities in the many fields that apply Math, Science, Technology, and
-                            Engineering. Providing students with a higher level of education before they reach
-                            college level courses allows them to hone their skills and gives them avenues to
-                            pursue realized passions for different subjects.
-                    </p>
-                </div>
-                <div class="white-block shadow para para-2">
-                    <h1>Dr. Holley</h1>
-                        <p>
-                                I teach Pre-AP Physics, AP Physics 2, AP Physics C: Mechanics, and AP Physics C: Electricity and Magnetism. AP Physics C is the highest level physics course available at Hebron High School; routine use of calculus to solve problems is the hallmark of this course.
-
-                                Everything in the world is STEM. Not just engineering, but also banking, driving, business, cooking, painting, singing, sports, armed forces, builders, designers, and just about anything else in life uses concepts and skills learned in STEM courses. To be safe and successful, one must use information from various STEM areas all the time.
-                                
-                                We don't exist without STEM.
-                        </p>
-                    </div>
-                    <div class="white-block shadow para para-3">
-                        <h1>Mr. Stites</h1>
-                        <p>
-                                “Computer science embraces problem solving, hardware, algorithms, and perspectives that help people utilize computers to address real-world problems in contemporary life.”
-
-                                “The..course introduces students to computer science with fundamental topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions and the ethical and social implications of computing. The course emphasizes both object-oriented and imperative problem solving and design.”
-                                
-                                STEM is critical because the number of STEM jobs in the United Sates will grow by 14% from 2010 to 2020, according to the US Deparment of Education. This is a much greater rate that the national average of 5-8% across all other job sectors.
-                        </p>
-                    </div>
-                    <div class="white-block shadow para para-4">
-                        <h1>Mr. Rodgers</h1>
-                        <p>
-                                STEM is necessary for the general well being and economy of our world. In order to meet high demand for contributing and fulfilling STEM careers, it’s very important that students explore and pursue STEM courses from an early age.
-                                The course I taught was engineering and design and in that class students take part in general construction of items. A general overview of engineering as a career path is also given. Oftentimes the students present their work to the class.
-                                
-                                Involved in many engineering ventures that students can partake. Assignments are given and are shared with the class or, on most occasions, just shared with the teacher. Give students the opportunity to blossom interest in engineering as a career path.                                
-                        </p>
-                    </div>
-                    <div class="white-block shadow para para-5">
-                        <h1>Mr. Flores</h1>
-                        <p>
-                                I teach Pre-AP Algebra II and Precalculus. Algebra II teaches students about various functions and how to solve equations involving those functions. Students also learn how to apply functions and their properties and graphs to real-life situations. Precalculus prepares students to take Calculus by providing an advanced study of algebra and an introduction to trigonometry, trigonometric functions, and trigonometric identities. I believe that STEM is important because the world is growing increasingly more connected through technology and careers in STEM fields are necessary to maintain that growth and innovation.
-                        </p>
-                    </div>
-                    <div class="white-block shadow para para-6">
-                        <h1>Ms. Cone</h1>
-                        <p>
-                                I feel STEM classes are extremely important as ALL students need to have a basic understanding of the world around them and the basics laws governing nature. This makes them more educated, productive citizens and smarter consumers. Also STEM classes utilize learning from other content areas such as English, Mathematics, and History. STEM classes tend to put into practice learning from the other core areas so that students see the practical application of material they learned elsewhere.
-                        </p>
-                    </div>
-    </div>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="src/js/stem.js"></script>
-    <script src="src/js/jquery.fancybox.min.js"></script>
-    <script src="src/js/popper.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/navbar.min.js"></script>
-    <script src="./src/js/scroll.min.js"></script>
-    <script src="src/js/prognroll.min.js"></script>
-    <script>
-        $(function() {
-            $("body").prognroll();
-        });
-    </script>
+	<script>
+	       AOS.init();
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
+		<a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="about-members.html">About Our Members</a> <a class="dropdown-item" href="members.html">Help for Members</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="timeline.html">History</a> <a class="dropdown-item" href="ai-today.html">AI in Today's World</a> <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="splash">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="animated pulse-header" id="stem">STEM @ HEBRON</h1>
+				</div><span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease"><br>
+				<i class="chevron bottom"></i></span>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center buttons" id="main">
+		<div class="row" data-aos="fade-right">
+			<p class="white-block shadow" id="desc">STEM at Hebron has always been one of the school's strong suits. The Science and Math departments at Hebron are some of the best in the district. The teachers instill a tenacious work ethic into the students through the rigor of the courses. The classes prepare Hebron students for success in the post-secondary level by offering students difficulty that parallels what they may see at the college level. The Engineering and Technology sections of Hebron are more focused toward skill-development and helping kids choose a career path. Not only do the students learn handy skills such as coding or basic typing classes, but they can also learn more advanced mechanisms in relation with architecture or graphic design. STEM at Hebron is really designed to assist students achieve success in future endeavours.</p>
+		</div>
+		<div class="row mb-4 white-block shadow">
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/board.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/board.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/chem.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/chem.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/iMac.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/iMac.jpg"></a>
+			</div>
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/kennet.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/kennet.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/diversity.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/diversity.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/market-robot.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/market-robot.jpg"></a>
+			</div>
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/woah.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/woah.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/techy-stuff.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/techy-stuff.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/STEM/books.JPG"><img class="img-fluid shadow" src="src/imgs/STEM/smaller/books.jpg"></a>
+			</div>
+		</div><button class="btn btn-primary" data-aos="fade" data-target="#science" data-toggle="modal" type="button">SCIENCE</button>
+		<div class="modal fade" id="science">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content text-left">
+					<div class="modal-header">
+						<h4 class="modal-title">Science Courses at Hebron</h4><button class="close" data-dismiss="modal" type="button">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h5>AP Chemistry</h5>
+						<p>This 36-week advanced-level course is designed to provide a comprehensive first-year college-level chemistry experience. Emphasis is placed on preparation for the Advanced Placement Chemistry exam. In addition, students partake in labs and other related activities that provide a further understanding.</p>
+						<h5>Medical Terminology</h5>
+						<p>This course is a Latin and Greek language-based class that studies the structure of medical terminology. Employability skills are emphasized. This is a fast-paced class that encourages collaborative, as well as independent learning. Requires good attendance and a motivated learner.</p>
+						<h5>Anatomy and Physiology</h5>
+						<p>A study of the structure and function of human anatomy, including the neuroendocrine, integumentary, and musculoskeletal, digestive, urinary, reproductive, respiratory, and circulatory systems. Content may be either integrated or specialized.</p>
+						<h5>Medical Microbiology</h5>
+						<p>This course offers an in-depth study of viruses, bacteria, fungi, and protists. Emphasis is on the knowledge of relationships between microbes and health maintenance and the role of microbes in infectious disease.</p>
+						<h5>Pathophysiology</h5>
+						<p>This course offers a study in the mechanisms and processes of pathology. Emphasis will be placed on knowing a variety of human diseases and the effects of disease prevention and control.</p>
+					</div>
+				</div>
+			</div>
+		</div><button class="btn btn-primary" data-aos="fade" data-target="#technology" data-toggle="modal" type="button">TECHNOLOGY</button>
+		<div class="modal fade" id="technology">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content text-left">
+					<div class="modal-header">
+						<h4 class="modal-title">Technology Courses at Hebron</h4><button class="close" data-dismiss="modal" type="button">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h5>Computer Programming I (9-12)</h5>
+						<p>Students participate in a coding class in which they learn fundamental coding functions. Codes range from simple to complex and allow for a deeper understanding of the nuances of programing.</p>
+						<h5>Computer Programming II (9-12)</h5>
+						<p>An extension of Computer Programing I. Students approach more complex codes and coding systems. Assignments are comparably more difficult than the first edition of the class.</p>
+						<h5>AP Computer Science (10-12)</h5>
+						<p>Preparatory class for the AP Computer Science exam. Students are given more independent assignments and participate in many labs. Prerequisite knowledge of programming or enrollment in a previous programming class recommended.</p>
+						<h5>Digital Media (9-12)</h5>
+						<p>Students will engage in the use of various forms of media, ranging from many computer programs that are offered. Allow for kids to garner a deeper understanding of the many manipulations of media.</p>
+						<h5>Graphic Design and Illustration I (10-12)</h5>
+						<p>This entry-level course is for training in the visual communication portion of all media businesses. Here you can learn about a career in the many kinds of media and graphic design and illustration jobs. Digital photography and working towards the intermediate level use of image editing and drawing programs are strongly focused upon in this class. This is helpful for any future photographer, videographer, animator or advertiser.</p>
+						<h5>Web Technologies (9-12)</h5>
+						<p>This course provides opportunity to learn about the hardware, software, and connectivity of networks associated with the World Wide Web. Students will create web pages using HTML and graphics software. Students will use digital cameras and scanners to create web page graphics. Students will use the Internet as a research tool.</p>
+					</div>
+				</div>
+			</div>
+		</div><button class="btn btn-primary" data-aos="fade" data-target="#engineering" data-toggle="modal" type="button">ENGINEERING</button>
+		<div class="modal fade" id="engineering">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content text-left">
+					<div class="modal-header">
+						<h4 class="modal-title">Engineering Courses at Hebron</h4><button class="close" data-dismiss="modal" type="button">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h5>Engineering Design and Presentation (9-12)</h5>
+						<p>Involved in many engineering ventures that students can partake. Assignments are given and are shared with the class or, on most occasions, just shared with the teacher. Give students the opportunity to blossom interest in engineering as a career path.</p>
+						<h5>Engineering Design and Problem Solving (Bioscience)</h5>
+						<p>In Engineering Design and Problem Solving for the Biosciences, students explore bioscience engineering using their math, science, and biotechnology backgrounds to solve engineering problems in the life science field. Students engaged in experiments and hands-on activities at least 40% of the time.</p>
+						<h5>Engineering Design and Problem Solving (Digital Electronics)</h5>
+						<p>In Engineering Design and Problem Solving for Digital Electronics, students apply knowledge from previous mathematics, science, and engineering courses to develop problem-solving skills using Digital Electronics. Students engage in skill development and hands-on activities at least 40% of the time. Special emphasis is placed on current trends in technology including robotics and circuit simulation.</p>
+						<h5>Engineering Mathematics</h5>
+						<p>Engineering Mathematics is a course where students solve and model robotic design problems. Students use a variety of mathematical methods and models to represent and analyze problems involving data acquisition, spatial applications, electrical measurement, manufacturing processes, and materials engineering.</p>
+						<h5>Robotics</h5>
+						<p>In Robotics, students build a knowledge base for working with computer-controlled devices. Students use the engineering design process to create prototypes, test, analyze, and improve designs. The focus is on basic robot construction and programming for robotic control. This is a project-based environment that requires students to build prototypes or use simulation software to test designs.</p>
+					</div>
+				</div>
+			</div>
+		</div><button class="btn btn-primary" data-aos="fade" data-target="#math" data-toggle="modal" type="button">MATHEMATICS</button>
+		<div class="modal fade" id="math">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content text-left">
+					<div class="modal-header">
+						<h4 class="modal-title">Mathematics Courses at Hebron</h4><button class="close" data-dismiss="modal" type="button">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h5>Algebra 1</h5>
+						<p>In Algebra I, students will study linear, quadratic, and exponential functions and their related transformations, equations, and associated solutions. In addition, students will study polynomials of degree one and two, radical expressions, sequences, and laws of exponents.</p>
+						<h5>Geometry</h5>
+						<p>In Geometry, students will explore concepts covering coordinate and transformational geometry; logical argument and constructions; proof and congruence; similarity, proof, and trigonometry; two- and three-dimensional figures; circles; and probability.</p>
+						<h5>AP Calculus AB</h5>
+						<p>In this rigorous course, students will examine graphs, functions, derivatives, integrals, continuity, and many other aspects pertaining to single variables. This course is designed to develop mathematical knowledge conceptually and students are guided to connect topics and representations throughout the course to accurately solve diverse types of problems.</p>
+						<h5>AP Statistics</h5>
+						<p>In this course students will broaden their knowledge of variability and statistical processes. Students will also study sampling and experimentation, categorical and quantitative data, probability and random variables, inference, and bivariate data.</p>
+						<h5>Mathematical Models with Applications</h5>
+						<p>This mathematics course provides a path for students to succeed in Algebra II and prepares them for various post-secondary choices. Students learn to apply mathematics through experiences in personal finance, science, engineering, fine arts, and social sciences.</p>
+						<h5>Foundations of College Mathematics</h5>
+						<p>Students will study linear, quadratic, polynomial, rational and radical expressions, equations, and functions as well as probability and statistics. Foundations for College Math is designed to help students meet college entrance requirements (TSI testing) and to be ready for entry-level college math coursework.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row white-block shadow text-center" id="timeline">
+			<iframe allowfullscreen frameborder='0' height='650' src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=14JtEB2V5jglwZ5Ho-xkfApbmMgUjwdVkxrYhgESpgvM&font=Default&lang=en&initial_zoom=2&height=650' width='100%'></iframe>
+		</div>
+		<article>
+			<article class="demo" id="demo-flat">
+				<h2>STEM Teachers</h2>
+				<div id="flat">
+					<ul>
+						<li data-flip-title="1"><img src="src/imgs/meldrum.jpg"></li>
+						<li data-flip-title="2"><img src="src/imgs/holley.jpg"></li>
+						<li data-flip-title="3"><img src="src/imgs/stites.jpg"></li>
+						<li data-flip-title="4"><img src="src/imgs/rodgers.jpg"></li>
+						<li data-flip-title="5"><img src="src/imgs/flores.jpg"></li>
+						<li data-flip-title="6"><img src="src/imgs/cone.jpg"></li>
+					</ul>
+				</div>
+				<script>
+				                        var flat = $("#flat").flipster({
+				                            style: 'flat',
+				                            spacing: -0.25,
+				                            buttons: true,
+				                            onItemSwitch: function(currentItem, previousItem){
+				                                $('.para').hide();
+				                                $('.para-'+currentItem.dataset.flipTitle).show();
+				                            }
+				                        });
+				</script>
+			</article>
+			<div class="white-block shadow para para-1">
+				<h1>Ms. Meldrum</h1>
+				<p>STEM is an important asset for schools because it exposes students to career opportunities in the many fields that apply Math, Science, Technology, and Engineering. Providing students with a higher level of education before they reach college level courses allows them to hone their skills and gives them avenues to pursue realized passions for different subjects.</p>
+			</div>
+			<div class="white-block shadow para para-2">
+				<h1>Dr. Holley</h1>
+				<p>I teach Pre-AP Physics, AP Physics 2, AP Physics C: Mechanics, and AP Physics C: Electricity and Magnetism. AP Physics C is the highest level physics course available at Hebron High School; routine use of calculus to solve problems is the hallmark of this course. Everything in the world is STEM. Not just engineering, but also banking, driving, business, cooking, painting, singing, sports, armed forces, builders, designers, and just about anything else in life uses concepts and skills learned in STEM courses. To be safe and successful, one must use information from various STEM areas all the time. We don't exist without STEM.</p>
+			</div>
+			<div class="white-block shadow para para-3">
+				<h1>Mr. Stites</h1>
+				<p>“Computer science embraces problem solving, hardware, algorithms, and perspectives that help people utilize computers to address real-world problems in contemporary life.” “The..course introduces students to computer science with fundamental topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions and the ethical and social implications of computing. The course emphasizes both object-oriented and imperative problem solving and design.” STEM is critical because the number of STEM jobs in the United Sates will grow by 14% from 2010 to 2020, according to the US Deparment of Education. This is a much greater rate that the national average of 5-8% across all other job sectors.</p>
+			</div>
+			<div class="white-block shadow para para-4">
+				<h1>Mr. Rodgers</h1>
+				<p>STEM is necessary for the general well being and economy of our world. In order to meet high demand for contributing and fulfilling STEM careers, it’s very important that students explore and pursue STEM courses from an early age. The course I taught was engineering and design and in that class students take part in general construction of items. A general overview of engineering as a career path is also given. Oftentimes the students present their work to the class. Involved in many engineering ventures that students can partake. Assignments are given and are shared with the class or, on most occasions, just shared with the teacher. Give students the opportunity to blossom interest in engineering as a career path.</p>
+			</div>
+			<div class="white-block shadow para para-5">
+				<h1>Mr. Flores</h1>
+				<p>I teach Pre-AP Algebra II and Precalculus. Algebra II teaches students about various functions and how to solve equations involving those functions. Students also learn how to apply functions and their properties and graphs to real-life situations. Precalculus prepares students to take Calculus by providing an advanced study of algebra and an introduction to trigonometry, trigonometric functions, and trigonometric identities. I believe that STEM is important because the world is growing increasingly more connected through technology and careers in STEM fields are necessary to maintain that growth and innovation.</p>
+			</div>
+			<div class="white-block shadow para para-6">
+				<h1>Ms. Cone</h1>
+				<p>I feel STEM classes are extremely important as ALL students need to have a basic understanding of the world around them and the basics laws governing nature. This makes them more educated, productive citizens and smarter consumers. Also STEM classes utilize learning from other content areas such as English, Mathematics, and History. STEM classes tend to put into practice learning from the other core areas so that students see the practical application of material they learned elsewhere.</p>
+			</div>
+		</article>
+	</div>
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+	</script> 
+	<script src="src/js/stem.js">
+	</script> 
+	<script src="src/js/jquery.fancybox.min.js">
+	</script> 
+	<script src="src/js/popper.min.js">
+	</script> 
+	<script src="src/js/bootstrap.min.js">
+	</script> 
+	<script src="src/js/navbar.min.js">
+	</script> 
+	<script src="./src/js/scroll.min.js">
+	</script> 
+	<script src="src/js/prognroll.min.js">
+	</script> 
+	<script>
+	       $(function() {
+	           $("body").prognroll();
+	       });
+	</script>
 </body>
-
 </html>
