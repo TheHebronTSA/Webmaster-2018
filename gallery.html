@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3d Card Carousel Example</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style>
+/* reset */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+
+body { line-height: 1 }
+
+ol, ul { list-style: none }
+
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+/* main */
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 440px;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  width: 350px;
+  height: 240px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  cursor: pointer;
+}
+
+.card:nth-child(1) {
+  z-index: 10;
+  top: 0px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card:nth-child(2) {
+  z-index: 9;
+  top: -15px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+.card:nth-child(3) {
+  z-index: 8;
+  top: -30px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.8;
+}
+
+.card:nth-child(4) {
+  z-index: 7;
+  top: -45px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0.7;
+}
+
+.card:nth-child(5) {
+  z-index: 6;
+  top: -60px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.6;
+}
+
+.card:nth-child(6) {
+  z-index: 5;
+  top: -75px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: 0.5;
+}
+
+.card:nth-child(7) {
+  z-index: 4;
+  top: -90px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.4);
+  transform: scale(0.4);
+  opacity: 0.4;
+}
+
+.card:nth-child(8) {
+  z-index: 3;
+  top: -105px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+  opacity: 0.3;
+}
+
+.card:nth-child(9) {
+  z-index: 2;
+  top: -120px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.2);
+  transform: scale(0.2);
+  opacity: 0.2;
+}
+
+.card:nth-child(10) {
+  z-index: 1;
+  top: -135px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  opacity: 0.1;
+}
+
+.card:nth-child(11) {
+  z-index: 0;
+  top: -150px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.card:first-child:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card:last-child { opacity: 0; }
+
+body {
+  background: -webkit-linear-gradient(#06A3EA, #2095F2);
+  background: linear-gradient(#06A3EA, #2095F2);
+  font-family: 'Open Sans';
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  margin-top:150px;
+}
+
+.title p {
+  padding: 10px 0 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.container { margin: 100px auto; }
+
+.card {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin: 60px 0 0;
+  padding: 8px 10px;
+}
+</style>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/rotator/3D-Card-Carousel-Rotator-With-jQuery-CSS3.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="title">3d Card Carousel Example
+
+</div>
+<div class="container">
+  <div data-card="4" class="card"><span>Click Me</span></div>
+  <div data-card="3" class="card"><span>Click Me</span></div>
+  <div data-card="2" class="card"><span>Click Me</span></div>
+  <div data-card="1" class="card"><span>Click Me</span></div>
+  <div data-card="0" class="card"><span>Click Me</span></div>
+</div>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
+<script>
+(function() {
+  var rotate, timeline;
+
+  rotate = function() {
+    return $('.card:first-child').fadeOut(400, 'swing', function() {
+      return $('.card:first-child').appendTo('.container').hide();
+    }).fadeIn(400, 'swing');
+  };
+
+  timeline = setInterval(rotate, 1200);
+
+  $('body').hover(function() {
+    return clearInterval(timeline);
+  });
+
+  $('.card').click(function() {
+    return rotate();
+  });
+
+}).call(this);
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
