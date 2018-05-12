@@ -12,11 +12,11 @@ body {
   padding: 0;
 }
 
-.wrapper {
+/* .wrapper {
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
-}
+} */
 
 .splash iframe {
   width: 30rem;
@@ -111,7 +111,6 @@ h2 {
 
 .container {
   height: 100%;
-  z-index: 2;
 }
 
 img {
