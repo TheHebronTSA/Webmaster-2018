@@ -1,179 +1,141 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="The members section of the Hebron TSA Website.">
-    <meta name="author" content="Eeshaan Pirani">
-
-    <title>Hebron TSA | Help for Members</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3f458f">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/css/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
-    <script src="./src/js/aos.js"></script>
-    <script src="./src/js/jquery-3.3.1.min.js"></script>
-    <script src="./src/js/jquery.flipster.min.js"></script>
-    <link href="./src/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="./src/css/jquery.flipster.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/members.css">
+	<meta charset="UTF-8">
+	<meta content="width=device-width" name="viewport">
+	<meta content="The members section of the Hebron TSA Website." name="description">
+	<meta content="Eeshaan Pirani" name="author">
+	<title>Hebron TSA | Help for Members</title>
+	<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/site.webmanifest" rel="manifest">
+	<link href="/safari-pinned-tab.svg" rel="mask-icon">
+	<meta content="#2b5797" name="msapplication-TileColor">
+	<meta content="#ffffff" name="theme-color">
+	<link href="src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./src/css/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
+	<script src="./src/js/aos.js">
+	</script>
+	<script src="./src/js/jquery-3.3.1.min.js">
+	</script>
+	<script src="./src/js/jquery.flipster.min.js">
+	</script>
+	<link href="./src/css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="./src/css/jquery.flipster.min.css" rel="stylesheet">
+	<link href="src/css/members.css" rel="stylesheet">
 </head>
-
 <body id="particles-js">
-    <script>
-        AOS.init();
-    </script>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
-        <a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                            <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about-members.html">MEMBERS</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="about-members.html">About Our Members</a>
-                                <a class="dropdown-item" href="members.html">Help for Members</a>
-                            </div>
-                        </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="robot.html">ROBOTS AND AI</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="timeline.html">History</a>
-                        <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
-                        <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
-                      </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="splash">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1 class="animated pulse" id="tsa">HELP FOR MEMBERS</h1>
-                </div>
-                <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800"><br>
-              <i class="chevron bottom"></i>
-            </span>
-            </div>
-        </div>
-    </div>
-    <div class="container text-center" id="main">
-        <div>
-            <article id="demo-flat" class="demo">
-                <h2>Tips and Tricks from the Pros</h2>
-                    <div id="flat">
-                        <ul>
-                            <li>
-                                <iframe class="text-center" src="https://drive.google.com/file/d/17PLQ8zaHrXjGI0Fe232u0ic3YtIgng34/preview" width="640" height="480"></iframe>
-                            </li>
-                            <li>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Hci9tPIQaHM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </li>
-                            <li>
-                                <iframe src="https://drive.google.com/file/d/131XiSDgJfcsfjeKv6QoAhEeufOl_Eix0/preview" width="640" height="480"></iframe>
-                            </li>
-                        </ul>
-                    </div>
-                    <script>
-                        var flat = $("#flat").flipster({
-                            style: 'flat',
-                            spacing: -0.25,
-                            buttons: true,
-                        });
-                    </script>
-                </article>
-          </div>
-          <div class="row">
-            <h2>Past Project Examples</h2>
-          </div>
-          <div class="row">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309708026&color=%2317a66a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-          <div class="row text-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/md1lAtKX3og" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-          <div class="row mb-4 white-block shadow">
-            <div class="col-6 col-lg-4">
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6295.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6295.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6296 2.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6296 2.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6297.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6297.jpg"/>
-                </a>         
-            </div>
-            <div class="col-6 col-lg-4">
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6300.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6301.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6301.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6301.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6303.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6303.jpg"/>
-                </a>
-            </div>
-            <div class="col-6 col-lg-4">
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6304.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6304.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6338.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6338.jpg"/>
-                </a>
-                <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6339.JPG">
-                    <img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6339.jpg"/>
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <h2>Useful Links</h2>
-        </div>
-        <div class="row">
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/';">TSA Home</button>
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/High-School-Competitions';">Events List</button>
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/Themes-and-Problems';">Event Themes</button>
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/Updates-and-Clarification';">TSA Updates</button>
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://media.wix.com/ugd/b5ab26_4fd622d7d6d746dfb7acefb35f94c9e8.pdf';">HS Handbook</button>
-            <button type="button" class="btn btn-lg hvr-radial-out" onclick="location.href = 'calendar.html';">Our Calendar</button>
-        </div>    
-    </div>
-    <script src="src/js/prognroll.min.js"></script>
-    <script>
-        $(function() {
-            $("body").prognroll();
-        });
-    </script>
-    <script src="src/js/jquery.fancybox.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/navbar.min.js"></script>
-    <script src="./src/js/scroll.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="src/js/stem.js"></script>
-    <script src="src/js/popper.min.js"></script>
+	<script>
+	       AOS.init();
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
+		<a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="about-members.html">About Our Members</a> <a class="dropdown-item" href="members.html">Help for Members</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="timeline.html">History</a> <a class="dropdown-item" href="ai-today.html">AI in Today's World</a> <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="splash">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="animated pulse" id="tsa">HELP FOR MEMBERS</h1>
+				</div><span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease"><br>
+				<i class="chevron bottom"></i></span>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center" id="main">
+		<div>
+			<article class="demo" id="demo-flat">
+				<h2>Tips and Tricks from the Pros</h2>
+				<div id="flat">
+					<ul>
+						<li><iframe class="text-center" height="480" src="https://drive.google.com/file/d/17PLQ8zaHrXjGI0Fe232u0ic3YtIgng34/preview" width="640"></iframe></li>
+						<li><iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/Hci9tPIQaHM" width="560"></iframe></li>
+						<li><iframe height="480" src="https://drive.google.com/file/d/131XiSDgJfcsfjeKv6QoAhEeufOl_Eix0/preview" width="640"></iframe></li>
+					</ul>
+				</div>
+				<script>
+				                    var flat = $("#flat").flipster({
+				                        style: 'flat',
+				                        spacing: -0.25,
+				                        buttons: true,
+				                    });
+				</script>
+			</article>
+		</div>
+		<div class="row">
+			<h2>Past Project Examples</h2>
+		</div>
+		<div class="row">
+			<iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309708026&color=%2317a66a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" width="100%"></iframe>
+		</div>
+		<div class="row text-center">
+			<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/md1lAtKX3og" width="560"></iframe>
+		</div>
+		<div class="row mb-4 white-block shadow">
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6295.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6295.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6296%202.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6296%202.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6297.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6297.jpg"></a>
+			</div>
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6300.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6301.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6301.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6301.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6303.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6303.jpg"></a>
+			</div>
+			<div class="col-6 col-lg-4">
+				<a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6304.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6304.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6338.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6338.jpg"></a> <a class="d-block mb-4" data-fancybox="images" href="src/imgs/past-projects/IMG_6339.JPG"><img class="img-fluid shadow" src="src/imgs/past-projects/smaller/IMG_6339.jpg"></a>
+			</div>
+		</div>
+		<div class="row">
+			<h2>Useful Links</h2>
+		</div>
+		<div class="row">
+			<button class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/';" type="button">TSA Home</button> <button class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/High-School-Competitions';" type="button">Events List</button> <button class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/Themes-and-Problems';" type="button">Event Themes</button> <button class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://www.tsaweb.org/Updates-and-Clarification';" type="button">TSA Updates</button> <button class="btn btn-lg hvr-radial-out" onclick="location.href = 'http://media.wix.com/ugd/b5ab26_4fd622d7d6d746dfb7acefb35f94c9e8.pdf';" type="button">HS Handbook</button> <button class="btn btn-lg hvr-radial-out" onclick="location.href = 'calendar.html';" type="button">Our Calendar</button>
+		</div>
+	</div>
+	<script src="src/js/prognroll.min.js">
+	</script> 
+	<script>
+	       $(function() {
+	           $("body").prognroll();
+	       });
+	</script> 
+	<script src="src/js/jquery.fancybox.min.js">
+	</script> 
+	<script src="src/js/bootstrap.min.js">
+	</script> 
+	<script src="src/js/navbar.min.js">
+	</script> 
+	<script src="./src/js/scroll.min.js">
+	</script> 
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+	</script> 
+	<script src="src/js/stem.js">
+	</script> 
+	<script src="src/js/popper.min.js">
+	</script>
 </body>
-
 </html>
