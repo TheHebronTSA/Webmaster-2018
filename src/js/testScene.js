@@ -11,7 +11,10 @@ document.body.appendChild(renderer.domElement);
 
 
 var loader = new THREE.ColladaLoader();
-loader.load('/src/3dModels/model.dae',function(result){scene.add(result.scene);});
+loader.load('/src/3dModels/model.dae',function(result)
+{
+    scene.add(result.scene);
+});
 
 
 
