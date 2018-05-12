@@ -1,430 +1,417 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A look at how AI is used in 2018. Made for the TSA Webmaster Design Brief.">
-    <meta name="author" content="Eeshaan Pirani">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="A look at how AI is used in 2018. Made for the TSA Webmaster Design Brief." name="description">
+	<meta content="Eeshaan Pirani" name="author">
+	<title>Hebron TSA | AI in Today's World</title>
+	<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/site.webmanifest" rel="manifest">
+	<link href="/safari-pinned-tab.svg" rel="mask-icon">
+	<meta content="#2b5797" name="msapplication-TileColor">
+	<meta content="#ffffff" name="theme-color">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+	</script>
+	<link href="src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./src/css/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
+	<script src="./src/js/aos.js">
+	</script>
+	<link href="src/css/ai-today.css" rel="stylesheet">
+	<style>
+	   .ai_label{
+	   position: absolute;
+	      font-size: 6em;
+	      margin-left: 15%;
+	      margin-top: 26%;
+	      }
 
-    <title>Hebron TSA | AI in Today's World</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3f458f">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/css/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
-    <script src="./src/js/aos.js"></script>
-    <link rel="stylesheet" href="src/css/ai-today.css">
+	   /* ----------- iPhone 4 and 4S ----------- */
+
+	   /* Portrait and Landscape */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 480px)
+	    and (-webkit-min-device-pixel-ratio: 2) {
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	   .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* Portrait */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 480px)
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: portrait) {
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	      .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* Landscape */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 480px)
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: landscape) {
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	   .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+	   /* Portrait and Landscape */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 568px)
+	    and (-webkit-min-device-pixel-ratio: 2) {
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	   .globe
+	   {
+	       /* width: 92%; */
+	      width: 95%;
+	   }
+	   }
+
+	   /* Portrait */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 565px)
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: portrait) {
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	      
+	      .globe
+	   {
+	      height: 75%;
+	      margin-left: 27px;
+	   }
+	   }
+
+	   /* Landscape */
+	   @media only screen 
+	    and (min-device-width: 320px) 
+	    and (max-device-width: 568px)
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: landscape) {
+	   .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }
+	   .globe
+	   {
+	       width: 92%;
+	   }   
+	   }
+
+	   /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+	   /* Portrait and Landscape */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 667px) 
+	    and (-webkit-min-device-pixel-ratio: 2) { 
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	    .globe
+	   {
+	       width: 92%;
+	   }
+
+	   }
+
+	   /* Portrait */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 667px) 
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: portrait) { 
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	      
+	   .globe
+	   {
+	    width: 97%;
+	    height: 85%;
+	   }
+
+	   }
+
+	   /* Landscape */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 667px) 
+	    and (-webkit-min-device-pixel-ratio: 2)
+	    and (orientation: landscape) { 
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	   .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+	   /* Portrait and Landscape */
+	   @media only screen 
+	    and (min-device-width: 414px) 
+	    and (max-device-width: 736px) 
+	    and (-webkit-min-device-pixel-ratio: 3) { 
+	    
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	      
+	      .globe
+	   {
+	       width: 92%;
+	   }
+
+	   }
+
+	   /* Portrait */
+	   @media only screen 
+	    and (min-device-width: 414px) 
+	    and (max-device-width: 736px) 
+	    and (-webkit-min-device-pixel-ratio: 3)
+	    and (orientation: portrait) { 
+	   .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	       margin-top: 68%;
+	      }   
+	      
+	      .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* Landscape */
+	   @media only screen 
+	    and (min-device-width: 414px) 
+	    and (max-device-width: 736px) 
+	    and (-webkit-min-device-pixel-ratio: 3)
+	    and (orientation: landscape) { 
+	   .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	      
+	   .globe
+	   {
+	       width: 92%;
+	   }
+	   }
+
+	   /* ----------- iPhone X ----------- */
+
+	   /* Portrait and Landscape */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 812px) 
+	    and (-webkit-min-device-pixel-ratio: 3) { 
+
+	   }
+
+	   /* Portrait */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 812px) 
+	    and (-webkit-min-device-pixel-ratio: 3)
+	    and (orientation: portrait) { 
+	    .ai_label{
+	   position: absolute;
+	      font-size: 3em;
+	      margin-left: 15%;
+	      margin-top: 68%;
+	      }   
+	      
+	   .globe
+	   {
+	       width: 92%;
+	       height: 98%;
+	   }
+
+	   }
+
+	   /* Landscape */
+	   @media only screen 
+	    and (min-device-width: 375px) 
+	    and (max-device-width: 812px) 
+	    and (-webkit-min-device-pixel-ratio: 3)
+	    and (orientation: landscape) { 
+
+	   }   
+	      
+	</style>
 </head>
-<style>
-.ai_label{
-position: absolute;
-    font-size: 6em;
-    margin-left: 15%;
-    margin-top: 26%;
-	}
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-.globe
-{
-     width: 92%;
-}
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-	.globe
-{
-     width: 92%;
-}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-.globe
-{
-     width: 92%;
-}
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-.globe
-{
-     /* width: 92%; */
-	width: 95%;
-}
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 565px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-	
-	.globe
-{
-    height: 75%;
-    margin-left: 27px;
-}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-.ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}
-.globe
-{
-     width: 92%;
-}	
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-  .globe
-{
-     width: 92%;
-}
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-	
-.globe
-{
-  width: 97%;
-  height: 85%;
-}
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-.globe
-{
-     width: 92%;
-}
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-  
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-	
-	.globe
-{
-     width: 92%;
-}
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-.ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-     margin-top: 68%;
-	}	
-	
-	.globe
-{
-     width: 92%;
-}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-.ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-	
-.globe
-{
-     width: 92%;
-}
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-  .ai_label{
-position: absolute;
-    font-size: 3em;
-    margin-left: 15%;
-    margin-top: 68%;
-	}	
-	
-.globe
-{
-     width: 92%;
-	 height: 98%;
-}
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}	
-	
-</style>
 <body>
-  <script>
-      AOS.init();
-  </script>
-  <nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
-      <a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a>
-      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                        <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about-members.html">MEMBERS</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="about-members.html">About Our Members</a>
-                            <a class="dropdown-item" href="members.html">Help for Members</a>
-                        </div>
-                    </li>
-              <li class="nav-item">
-                  <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
-              </li>
-              <li class="nav-item dropdown">
-                      <a class="nav-link hvr-underline-from-center text-white dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="robot.html">ROBOTS AND AI</a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <a class="dropdown-item" href="timeline.html">History</a>
-                              <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
-                              <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
-                        </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-  <div class="splash">
-      <div class="container">
-          <div class="row text-center">
-              <div class="col-12">
-                  <h1 class="ai_label">AI in Today's World</h1>
-              </div>
-              <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800"><br>
-            <i class="chevron bottom"></i>
-          </span>
-          <div class="scene text-center">
-              <div class="wrapper text-center">
-                <div class="globe text-center">
-                  <span class="ring text-center"></span>
-                  <span class="ring text-center"></span>
-                  <span class="ring"></span>
-                  <span class="ring"></span>
-                  <span class="ring"></span>
-                  <span class="ring"></span>
-                  <span class="ring"></span>
-                </div>
-              </div>
-          </div>
-          </div>
-      </div>
-  </div>
-  <div class="container" id="main">
-    <div class="row text-center">
-      <h2 class="text-center" data-aos="zoom-in-down">Summary</h2>
-      <p data-aos="fade-down">The use of AI has seen a recent uptake in the business world. On a practical level, Uber has employed self driving cars in many of the nations cities. These cars require no driver to constantly turn the wheel or adjust any lights, they just go on their own. Similarly, Amazon has also been marketing a smart home speaker called the Amazon Echo with the personal assistant Alexa. Currently, the speaker can do tasks such as setting a timer or changing the music playing in a room. Another company that uses AI is Intel. In many of their processors, with the assistance of integrated AI, Intel is able to make the processors optimize themselves and conduct the processes at a more efficient rate. The AI that video games offer are also an interesting concept. Whether it is a simple tic tac toe or something more complex, video game AI offers varying difficulty and an interesting element to these games.</p>
-    </div>
-    <div class="row">
-      <h2 data-aos="zoom-in-down">Google Assistant</h2>
-    </div>
-    <div class="clearfix">
-         <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
-            <img src="src/imgs/ai-today/assistant.png" alt="Google Assistant" height="200px" data-aos="fade-left">
-         </div>
-      <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
-        <p data-aos="fade-right">Google Assistant was a personal assistant introduced by google in 2016. The app was initially available for Google devices and eventually introduced to Apple devices. Tasks such as setting timers, searching the internet, and scheduling events can be completed by the device. The Google Assistant is able to converse with the user which assists with communication.  An app as well as a home speaker is available for use.</p>
-      </div>     
-      
-    </div>
-    <div class="row">
-        <h2 data-aos="zoom-in-down">IBM Watson</h2>
-      </div>
-      <div class="clearfix">
-        <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
-          <img src="src/imgs/ai-today/watson.jpg" alt="IBM Watson" height="200px" data-aos="fade-left">
-        </div>
-        <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
-          <p data-aos="fade-right">IBM Watson was introduced in 2010 and allowed for the answering of information based questions. When created, IBM stated that, "more than 100 different techniques are used to analyze natural language, identify sources, find and generate hypotheses, find and score evidence, and merge and rank hypotheses. Watson has many commercial uses, such as helping business optimize their operations. The biggest accomplishment for the robot was the participation</p>
-        </div>
-      </div>
-      <div class="row">
-          <h2 data-aos="zoom-in-down">Uber Self-Driving Cars</h2>
-        </div>
-        <div class="clearfix">
-          <div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12">
-              <img src="src/imgs/ai-today/uber.jpg" alt="Uber Self-Driving Car" height="100px" data-aos="fade-left">
-          </div>
-          <div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
-            <p data-aos="fade-right">Self-driving cars are vehicles that can assess the environment and drive on its on own. Many companies have attempted to use the vehicle and the most notable being Uber. Uber has sent out the car to many cities in the United States as part of their arsenal of taxis. Generally autonomous vehicles have a lot of sensory equipment, Uber’s self driving cars are no different. With multiple sensors on the hood and inside the car, the automobile can effectively and safely traverse through many roads.</p>
-          </div>
-      </div>
-  </div>
-  <script src="./src/js/jquery-3.3.1.min.js"></script>
-  <script src="src/js/popper.min.js"></script>
-  <script src="src/js/bootstrap.min.js"></script>
-  <script src="src/js/navbar.min.js"></script>
-  <script src="./src/js/scroll.js"></script>
-  <script src="src/js/prognroll.min.js"></script>
-  <script>
-      $(function() {
-          $("body").prognroll();
-      });
-  </script>
+	<script>
+	        AOS.init();
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
+		<a class="navbar-brand text-white" href="./"><span class="thicc">HEBRON</span> TSA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="about-members.html">About Our Members</a> <a class="dropdown-item" href="members.html">Help for Members</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown" href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+						<a class="dropdown-item" href="timeline.html">History</a> <a class="dropdown-item" href="ai-today.html">AI in Today's World</a> <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="splash">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="ai_label">AI in Today's World</h1>
+				</div><span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease"><br>
+				<i class="chevron bottom"></i></span>
+				<div class="scene text-center">
+					<div class="wrapper text-center">
+						<div class="globe text-center">
+							<span class="ring text-center"></span> <span class="ring text-center"></span> <span class="ring"></span> <span class="ring"></span> <span class="ring"></span> <span class="ring"></span> <span class="ring"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="main">
+		<div class="row text-center">
+			<h2 class="text-center" data-aos="zoom-in-down">Summary</h2>
+			<p data-aos="fade-down">The use of AI has seen a recent uptake in the business world. On a practical level, Uber has employed self driving cars in many of the nations cities. These cars require no driver to constantly turn the wheel or adjust any lights, they just go on their own. Similarly, Amazon has also been marketing a smart home speaker called the Amazon Echo with the personal assistant Alexa. Currently, the speaker can do tasks such as setting a timer or changing the music playing in a room. Another company that uses AI is Intel. In many of their processors, with the assistance of integrated AI, Intel is able to make the processors optimize themselves and conduct the processes at a more efficient rate. The AI that video games offer are also an interesting concept. Whether it is a simple tic tac toe or something more complex, video game AI offers varying difficulty and an interesting element to these games.</p>
+		</div>
+		<div class="row">
+			<h2 data-aos="zoom-in-down">Google Assistant</h2>
+		</div>
+		<div class="clearfix">
+			<div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12"><img alt="Google Assistant" data-aos="fade-left" height="200px" src="src/imgs/ai-today/assistant.png"></div>
+			<div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
+				<p data-aos="fade-right">Google Assistant was a personal assistant introduced by google in 2016. The app was initially available for Google devices and eventually introduced to Apple devices. Tasks such as setting timers, searching the internet, and scheduling events can be completed by the device. The Google Assistant is able to converse with the user which assists with communication. An app as well as a home speaker is available for use.</p>
+			</div>
+		</div>
+		<div class="row">
+			<h2 data-aos="zoom-in-down">IBM Watson</h2>
+		</div>
+		<div class="clearfix">
+			<div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12"><img alt="IBM Watson" data-aos="fade-left" height="200px" src="src/imgs/ai-today/watson.jpg"></div>
+			<div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
+				<p data-aos="fade-right">IBM Watson was introduced in 2010 and allowed for the answering of information based questions. When created, IBM stated that, "more than 100 different techniques are used to analyze natural language, identify sources, find and generate hypotheses, find and score evidence, and merge and rank hypotheses. Watson has many commercial uses, such as helping business optimize their operations. The biggest accomplishment for the robot was the participation</p>
+			</div>
+		</div>
+		<div class="row">
+			<h2 data-aos="zoom-in-down">Uber Self-Driving Cars</h2>
+		</div>
+		<div class="clearfix">
+			<div class="float-lg-right float-md-right col-lg-6 col-md-6 col-sm-12"><img alt="Uber Self-Driving Car" data-aos="fade-left" height="100px" src="src/imgs/ai-today/uber.jpg"></div>
+			<div class="float-lg-left float-lg-left col-lg-6 col-md-6 col-sm-12">
+				<p data-aos="fade-right">Self-driving cars are vehicles that can assess the environment and drive on its on own. Many companies have attempted to use the vehicle and the most notable being Uber. Uber has sent out the car to many cities in the United States as part of their arsenal of taxis. Generally autonomous vehicles have a lot of sensory equipment, Uber’s self driving cars are no different. With multiple sensors on the hood and inside the car, the automobile can effectively and safely traverse through many roads.</p>
+			</div>
+		</div>
+	</div>
+	<script src="./src/js/jquery-3.3.1.min.js">
+	</script> 
+	<script src="src/js/popper.min.js">
+	</script> 
+	<script src="src/js/bootstrap.min.js">
+	</script> 
+	<script src="src/js/navbar.min.js">
+	</script> 
+	<script src="./src/js/scroll.js">
+	</script> 
+	<script src="src/js/prognroll.min.js">
+	</script> 
+	<script>
+	        $(function() {
+	            $("body").prognroll();
+	        });
+	</script>
 </body>
+</html>
