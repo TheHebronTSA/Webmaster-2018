@@ -15,15 +15,6 @@ var scene = new THREE.Scene();
 			var animate = function () {
 				requestAnimationFrame( animate );
 
-<<<<<<< HEAD
-				cube.rotation.x += 0.1;
-				cube.rotation.y += 0.1;
-
-				renderer.render(scene, camera);
-			};
-
-			animate();
-=======
 var loader = new THREE.ColladaLoader();
 loader.load('/src/3dModels/model.dae',function(result)
 {
@@ -32,8 +23,7 @@ loader.load('/src/3dModels/model.dae',function(result)
 
 
 
-var light = new THREE.PointLight(0xFFFF00);
-light.position.set(10, 0, 25);
-scene.add(light);
+//var light = new THREE.PointLight(0xFFFF00);
+//light.position.set(10, 0, 25);
+//scene.add(light);
 renderer.render(scene,camera);
->>>>>>> parent of 57ff77c... Merge branch 'robotics'
