@@ -6,6 +6,7 @@
 
   <title>Hebron TSA | Gallery</title>
 
+  <link href="src/css/jquery.fancybox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="src/css/gallery.css">
 </head>
 
@@ -13,7 +14,9 @@
   <div id="contentContainer" class="trans3d">
     <section id="carouselContainer" class="trans3d">
       <figure id="item1" class="carouselItem trans3d">
-        <img src="src/imgs/dale.jpg" class="carouselItemInner trans3d">
+        <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/dale.jpg">
+          <img src="src/imgs/dale.jpg"/>
+        </a>
       </figure>
       <figure id="item2" class="carouselItem trans3d">
         <img src="src/imgs/dale.jpg" class="carouselItemInner trans3d">
@@ -61,6 +64,7 @@
   </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
   <script src="src/js/jquery-3.3.1.min.js"></script>
+  <script src="src/js/jquery.fancybox.min.js"></script>
   <script src="src/js/gallery.js"></script>
 </body>
 
