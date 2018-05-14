@@ -9,7 +9,175 @@
     <meta content="src/imgs/banner.png" property="og:image">
 
     <title>Hebron TSA | Home</title>
+    <style type="text/css">
+        /*Styling For iHover*/
+        .ih-item.square {
+            border:0px!important;
+            box-shadow: 0px 0px 0px rgba(0,0,0,0.0)!important;
+        }
+        .ih-item img {
+            height: 250px!important;
+            width: 215px!important;
+        }
+        .ih-item.square{
+            width: 100%!important;
+            height: 100%!important;
+        }
+        .ih-item.square .info{
+            width: 89%!important;
+            left: 20px!important;
+        }
+        /*end here*/
+.loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    background-color: white;
+    z-index: 9999;
+}
+.cssload-triangles {
+    transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+    height: 79px;
+    width: 88px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
 
+.cssload-tri {
+    position: absolute;
+    animation: cssload-pulse 862.5ms ease-in infinite;
+        -o-animation: cssload-pulse 862.5ms ease-in infinite;
+        -ms-animation: cssload-pulse 862.5ms ease-in infinite;
+        -webkit-animation: cssload-pulse 862.5ms ease-in infinite;
+        -moz-animation: cssload-pulse 862.5ms ease-in infinite;
+    border-top: 26px solid rgb(139,157,195);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 0px;
+}
+.cssload-tri.cssload-invert {
+    border-top: 0px;
+    border-bottom: 26px solid rgb(139,157,195);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.cssload-tri:nth-child(1) {
+    left: 15px;
+    top: 26px;
+    animation-delay: -143.75ms;
+        -o-animation-delay: -143.75ms;
+        -ms-animation-delay: -143.75ms;
+        -webkit-animation-delay: -143.75ms;
+        -moz-animation-delay: -143.75ms;
+}
+.cssload-tri:nth-child(2) {
+    left: 29px;
+    top: 26px;
+}
+.cssload-tri:nth-child(3) {
+    left: 44px;
+    top: 26px;
+    animation-delay: -718.75ms;
+        -o-animation-delay: -718.75ms;
+        -ms-animation-delay: -718.75ms;
+        -webkit-animation-delay: -718.75ms;
+        -moz-animation-delay: -718.75ms;
+}
+
+.cssload-tri:nth-child(4) {
+    top: 52px;
+    left: 15px;
+    animation-delay: -287.5ms;
+        -o-animation-delay: -287.5ms;
+        -ms-animation-delay: -287.5ms;
+        -webkit-animation-delay: -287.5ms;
+        -moz-animation-delay: -287.5ms;
+}
+.cssload-tri:nth-child(5) {
+    top: 52px;
+    left: 30px;
+    animation-delay: -431.25ms;
+        -o-animation-delay: -431.25ms;
+        -ms-animation-delay: -431.25ms;
+        -webkit-animation-delay: -431.25ms;
+        -moz-animation-delay: -431.25ms;
+}
+.cssload-tri:nth-child(6) {
+    top: 52px;
+    left: 44px;
+    animation-delay: -575ms;
+        -o-animation-delay: -575ms;
+        -ms-animation-delay: -575ms;
+        -webkit-animation-delay: -575ms;
+        -moz-animation-delay: -575ms;
+}
+
+@keyframes cssload-pulse {
+    0% {
+        opacity: 1;
+    }
+    16.666% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes cssload-pulse {
+    0% {
+        opacity: 1;
+    }
+    16.666% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes cssload-pulse {
+    0% {
+        opacity: 1;
+    }
+    16.666% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes cssload-pulse {
+    0% {
+        opacity: 1;
+    }
+    16.666% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes cssload-pulse {
+    0% {
+        opacity: 1;
+    }
+    16.666% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+    </style>
     <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
     <link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
@@ -23,13 +191,23 @@
     <link href="src/css/bootstrap.min.css" rel="stylesheet">
     <link href="./src/css/aos.css" rel="stylesheet">
     <link href="src/css/style.css" rel="stylesheet">
-    <!--<link href="src/css/ihover.min.css" rel="stylesheet">-->
+    <link href="src/css/ihover.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
     <script src="./src/js/aos.js"></script>
 </head>
 
 <body id="particles-js">
+            <div class="loader">
+            <div class="cssload-triangles">
+    <div class="cssload-tri cssload-invert"></div>
+    <div class="cssload-tri"></div>
+    <div class="cssload-tri cssload-invert"></div>
+    <div class="cssload-tri"></div>
+    <div class="cssload-tri cssload-invert"></div>
+    <div class="cssload-tri"></div>
+</div>
+</div>
     <div class="wrapper">
         <script>
             AOS.init();
@@ -146,7 +324,22 @@
                 <h2>Officers</h2>
             </div>
             <div class="row officers text-center" data-aos="fade-right">
-                <!-- <div class="col-sm-4 col-12">
+
+                <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#arpan" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/arpan.jpg" alt="Arpan, the President" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Arpan Patel</h3>
+                        <p>President</p>
+                        <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
+                </div>
+            </div>
+<!--                 <div class="col-sm-4 col-12">
                     <div class="ih-item effect13 bottom_to_top">
                         <div class="img">
                             <img alt="Arpan, the President" class="" src="src/imgs/arpan.jpg">
@@ -158,38 +351,109 @@
                         </div>
                     </div>
                 </div> --> <!-- Documentation at http://gudh.github.io/ihover/dist/index.html -->
-                <div class="col-sm-4 col-12">
+<!--                 <div class="col-sm-4 col-12">
                     <a data-target="#arpan" data-toggle="modal">
                         <img alt="Arpan, the President" src="src/imgs/arpan.jpg">
                     </a>
+                </div> -->
+                                <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#patrick" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/patrick.jpg" alt="Patrick, the Vice President" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Patrick Allen</h3>
+                        <p>Vice President</p>
+                        <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
                 </div>
-                <div class="col-sm-4 col-12">
+            </div>
+<!--                 <div class="col-sm-4 col-12">
                     <a data-target="#patrick" data-toggle="modal">
                         <img alt="Patrick, the Vice President" src="src/imgs/patrick.jpg">
                     </a>
-                </div>
+                </div> -->
                 <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#rahul" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/rahul.jpg" alt="Rahul, the Secretary" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Rahul Venna</h3>
+                        <p>Secretary</p>
+                        <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
+                </div>
+            </div>
+<!--                 <div class="col-sm-4 col-12">
                     <a data-target="#rahul" data-toggle="modal">
                         <img alt="Rahul, the Secretary" class="" src="src/imgs/rahul.jpg">
                     </a>
-                </div>
+                </div> -->
             </div>
             <div class="row officers text-center" data-aos="fade-left">
+                
                 <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#ammar" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/ammar.png" alt="Ammar, the Treasurer" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Ammar Dharani</h3>
+                        <p>Treasurer</p>
+                        <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
+                </div>
+            </div>
+<!--                 <div class="col-sm-4 col-12">
                     <a data-target="#ammar" data-toggle="modal">
                         <img alt="Ammar, the Treasurer" src="src/imgs/ammar.png">
                     </a>
+                </div> -->
+                <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#riya" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/riya.jpg" alt="Riya, the Reporter" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Riya Gupta</h3>
+                        <p>Reporter</p>
+                        <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
                 </div>
+            </div><!-- 
                 <div class="col-sm-4 col-12">
                     <a data-target="#riya" data-toggle="modal">
                         <img alt="Riya, the Reporter" src="src/imgs/riya.jpg">
                     </a>
-                </div>
+                </div> -->
                 <div class="col-sm-4 col-12">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect13 bottom_to_top"><a data-target="#alizer" data-toggle="modal">
+                      <div class="img">
+                        <img src="src/imgs/alizer.jpg" alt="Alizer, the Sergeant of Arms" height="100%" width="100%">
+                    </div>
+                      <div class="info">
+                        <h3>Alizer Khowaja</h3>
+                        <p>Sergeant of Arms</p>
+                        <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
+                      </div></a>
+                  <!-- end colored -->
+                </div>
+            </div>
+<!--                 <div class="col-sm-4 col-12">
                     <a data-target="#alizer" data-toggle="modal">
                         <img alt="Alizer, the Sergeant of Arms" src="src/imgs/alizer.jpg">
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
         <!--Modals-->
@@ -307,6 +571,13 @@
             $("body").prognroll();
         });
     </script>
+    <script type="text/javascript">
+    $(window).bind("load", function() {
+
+    $('.loader').fadeOut(200);
+});
+
+</script>
 </body>
 
 </html>
