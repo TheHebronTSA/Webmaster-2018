@@ -31,7 +31,6 @@ loader.load(
 		console.log( 'An error happened' );
 	}
 );
-Constructor
 
 
 
