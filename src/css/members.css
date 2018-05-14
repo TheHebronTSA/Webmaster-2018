@@ -11,6 +11,7 @@ body {
   background: #4f8585;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -80,7 +81,6 @@ tr, th {
 }
 
 .container {
-  height: 100%;
   z-index: 2;
 }
 
@@ -205,7 +205,7 @@ h2 {
   font-weight: 500;
 }
 
-@media (max-height: 600px) {
+@media screen and (max-height: 600px) {
   .splash .container {
       padding-top: 3rem;
  }
@@ -422,4 +422,10 @@ nav.navbar.inverse {
 
 .para-1, .para-2, .para-4, .para-5{
   display: none;
+}
+
+@media screen and (max-width: 992px) {
+  #tsa {
+    font-size: 3em;
+  }
 }
