@@ -12,7 +12,7 @@ var loader = new THREE.JSONLoader();
 // load a resource
 loader.load(
 	// resource URL
-	'./3dModels/model.json',
+	'./src/3dModels/model.json',
 
 	// onLoad callback
 	function ( geometry, materials ) {
