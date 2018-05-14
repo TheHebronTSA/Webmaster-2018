@@ -6,10 +6,32 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 
-var loader = new THREE.ColladaLoader();
-loader.load('./src/3dModels/model.dae', function (result) {
-    scene.add(result.scene);
-});
+// instantiate a loader
+var loader = new THREE.JSONLoader();
+
+// load a resource
+loader.load(
+	// resource URL
+	'./3dModels/model.json',
+
+	// onLoad callback
+	function ( geometry, materials ) {
+		var material = materials[ 0 ];
+		var object = new THREE.Mesh( geometry, material );
+		scene.add( object );
+	},
+
+	// onProgress callback
+	function ( xhr ) {
+		console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+	},
+
+	// onError callback
+	function( err ) {
+		console.log( 'An error happened' );
+	}
+);
+Constructor
 
 
 
