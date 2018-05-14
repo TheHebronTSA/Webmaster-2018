@@ -6,10 +6,10 @@ body {
 }
 
 .animate-background {
-  -webkit-animation: background-gradient 70s ease infinite;
-  -moz-animation: background-gradient 70s ease infinite;
-  -o-animation: background-gradient 70s ease infinite;
-  animation: background-gradient 70s ease infinite;
+  -webkit-animation: background-gradient 10s ease infinite;
+  -moz-animation: background-gradient 10s ease infinite;
+  -o-animation: background-gradient 10s ease infinite;
+  animation: background-gradient 10s ease infinite;
 }
 
 .thicc {
