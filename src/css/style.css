@@ -17,7 +17,6 @@ html, body {
   height: 250px;
   margin: 1rem;
   transition: all ease-in-out;
-  border-radius: .5rem;
   transition-duration: .5s;
 }
 
