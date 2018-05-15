@@ -403,3 +403,17 @@ nav.navbar.inverse {
     padding-bottom: 15px;
   }
 }
+
+.ih-item.square {
+  border:0px!important;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.0)!important;
+}
+
+.ih-item.square{
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.ih-item.square .info{
+  width: 100%!important;
+}
