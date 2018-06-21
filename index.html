@@ -2,537 +2,542 @@
 <html>
 
 <head>
-    <!--Meta Tags-->
-    <meta charset="utf-8">
-    <meta content="width=device-width" name="viewport">
-    <meta content="The official website of the Hebron High School Technology Student Association." name="description">
-    <meta content="Eeshaan Pirani" name="author">
-    <meta content="src/imgs/banner.png" property="og:image">
+  <!--Meta Tags-->
+  <meta charset="utf-8">
+  <meta content="width=device-width" name="viewport">
+  <meta content="The official website of the Hebron High School Technology Student Association." name="description">
+  <meta content="Eeshaan Pirani" name="author">
+  <meta content="src/imgs/banner.png" property="og:image">
 
-    <title>Hebron TSA | Home</title>
+  <title>Hebron TSA | Home</title>
 
-    <!--Start Preloader-->
-    <style type="text/css">
-        .loader {
-            height: 100%;
-            width: 100%;
-            position: fixed;
-            display: block;
-            background-color: #343A40;
-            z-index: 9999;
-        }
+  <!--Start Preloader-->
+  <style type="text/css">
+    .loader {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      display: block;
+      background-color: #343A40;
+      z-index: 9999;
+    }
 
-        .cssload-triangles {
-            transform: translate(-50%, -50%);
-            -o-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%);
-            height: 79px;
-            width: 88px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-        }
+    .cssload-triangles {
+      transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      height: 79px;
+      width: 88px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
 
-        .cssload-tri {
-            position: absolute;
-            animation: cssload-pulse 862.5ms ease-in infinite;
-            -o-animation: cssload-pulse 862.5ms ease-in infinite;
-            -ms-animation: cssload-pulse 862.5ms ease-in infinite;
-            -webkit-animation: cssload-pulse 862.5ms ease-in infinite;
-            -moz-animation: cssload-pulse 862.5ms ease-in infinite;
-            border-top: 26px solid #3f458c;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-            border-bottom: 0px;
-        }
+    .cssload-tri {
+      position: absolute;
+      animation: cssload-pulse 862.5ms ease-in infinite;
+      -o-animation: cssload-pulse 862.5ms ease-in infinite;
+      -ms-animation: cssload-pulse 862.5ms ease-in infinite;
+      -webkit-animation: cssload-pulse 862.5ms ease-in infinite;
+      -moz-animation: cssload-pulse 862.5ms ease-in infinite;
+      border-top: 26px solid #3f458c;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 0px;
+    }
 
-        .cssload-tri.cssload-invert {
-            border-top: 0px;
-            border-bottom: 26px solid #3f458c;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-        }
+    .cssload-tri.cssload-invert {
+      border-top: 0px;
+      border-bottom: 26px solid #3f458c;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+    }
 
-        .cssload-tri:nth-child(1) {
-            left: 15px;
-            top: 26px;
-            animation-delay: -143.75ms;
-            -o-animation-delay: -143.75ms;
-            -ms-animation-delay: -143.75ms;
-            -webkit-animation-delay: -143.75ms;
-            -moz-animation-delay: -143.75ms;
-        }
+    .cssload-tri:nth-child(1) {
+      left: 15px;
+      top: 26px;
+      animation-delay: -143.75ms;
+      -o-animation-delay: -143.75ms;
+      -ms-animation-delay: -143.75ms;
+      -webkit-animation-delay: -143.75ms;
+      -moz-animation-delay: -143.75ms;
+    }
 
-        .cssload-tri:nth-child(2) {
-            left: 29px;
-            top: 26px;
-        }
+    .cssload-tri:nth-child(2) {
+      left: 29px;
+      top: 26px;
+    }
 
-        .cssload-tri:nth-child(3) {
-            left: 44px;
-            top: 26px;
-            animation-delay: -718.75ms;
-            -o-animation-delay: -718.75ms;
-            -ms-animation-delay: -718.75ms;
-            -webkit-animation-delay: -718.75ms;
-            -moz-animation-delay: -718.75ms;
-        }
+    .cssload-tri:nth-child(3) {
+      left: 44px;
+      top: 26px;
+      animation-delay: -718.75ms;
+      -o-animation-delay: -718.75ms;
+      -ms-animation-delay: -718.75ms;
+      -webkit-animation-delay: -718.75ms;
+      -moz-animation-delay: -718.75ms;
+    }
 
-        .cssload-tri:nth-child(4) {
-            top: 52px;
-            left: 15px;
-            animation-delay: -287.5ms;
-            -o-animation-delay: -287.5ms;
-            -ms-animation-delay: -287.5ms;
-            -webkit-animation-delay: -287.5ms;
-            -moz-animation-delay: -287.5ms;
-        }
+    .cssload-tri:nth-child(4) {
+      top: 52px;
+      left: 15px;
+      animation-delay: -287.5ms;
+      -o-animation-delay: -287.5ms;
+      -ms-animation-delay: -287.5ms;
+      -webkit-animation-delay: -287.5ms;
+      -moz-animation-delay: -287.5ms;
+    }
 
-        .cssload-tri:nth-child(5) {
-            top: 52px;
-            left: 30px;
-            animation-delay: -431.25ms;
-            -o-animation-delay: -431.25ms;
-            -ms-animation-delay: -431.25ms;
-            -webkit-animation-delay: -431.25ms;
-            -moz-animation-delay: -431.25ms;
-        }
+    .cssload-tri:nth-child(5) {
+      top: 52px;
+      left: 30px;
+      animation-delay: -431.25ms;
+      -o-animation-delay: -431.25ms;
+      -ms-animation-delay: -431.25ms;
+      -webkit-animation-delay: -431.25ms;
+      -moz-animation-delay: -431.25ms;
+    }
 
-        .cssload-tri:nth-child(6) {
-            top: 52px;
-            left: 44px;
-            animation-delay: -575ms;
-            -o-animation-delay: -575ms;
-            -ms-animation-delay: -575ms;
-            -webkit-animation-delay: -575ms;
-            -moz-animation-delay: -575ms;
-        }
+    .cssload-tri:nth-child(6) {
+      top: 52px;
+      left: 44px;
+      animation-delay: -575ms;
+      -o-animation-delay: -575ms;
+      -ms-animation-delay: -575ms;
+      -webkit-animation-delay: -575ms;
+      -moz-animation-delay: -575ms;
+    }
 
-        @keyframes cssload-pulse {
-            0% {
-                opacity: 1;
-            }
-            16.666% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
+    @keyframes cssload-pulse {
+      0% {
+        opacity: 1;
+      }
+      16.666% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 
-        @-o-keyframes cssload-pulse {
-            0% {
-                opacity: 1;
-            }
-            16.666% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
+    @-o-keyframes cssload-pulse {
+      0% {
+        opacity: 1;
+      }
+      16.666% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 
-        @-ms-keyframes cssload-pulse {
-            0% {
-                opacity: 1;
-            }
-            16.666% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
+    @-ms-keyframes cssload-pulse {
+      0% {
+        opacity: 1;
+      }
+      16.666% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 
-        @-webkit-keyframes cssload-pulse {
-            0% {
-                opacity: 1;
-            }
-            16.666% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
+    @-webkit-keyframes cssload-pulse {
+      0% {
+        opacity: 1;
+      }
+      16.666% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 
-        @-moz-keyframes cssload-pulse {
-            0% {
-                opacity: 1;
-            }
-            16.666% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-    </style>
+    @-moz-keyframes cssload-pulse {
+      0% {
+        opacity: 1;
+      }
+      16.666% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <!--End Preloader-->
 
-    <!--Favicon/Theme-->
-    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-    <link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-    <link href="/site.webmanifest" rel="manifest">
-    <link href="/safari-pinned-tab.svg" rel="mask-icon">
-    <meta content="Hebron TSA" name="apple-mobile-web-app-title">
-    <meta content="Hebron TSA" name="application-name">
-    <meta content="#2b5797" name="msapplication-TileColor">
-    <meta content="#ffffff" name="theme-color">
+  <!--Favicon/Theme-->
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/site.webmanifest" rel="manifest">
+  <link href="/safari-pinned-tab.svg" rel="mask-icon">
+  <meta content="Hebron TSA" name="apple-mobile-web-app-title">
+  <meta content="Hebron TSA" name="application-name">
+  <meta content="#2b5797" name="msapplication-TileColor">
+  <meta content="#ffffff" name="theme-color">
 
-    <!--CSS-->
-    <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/css/aos.css" rel="stylesheet">
-    <link href="src/css/style.css" rel="stylesheet">
-    <link href="src/css/ihover.min.css" rel="stylesheet">
+  <!--CSS-->
+  <link href="src/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./src/css/aos.css" rel="stylesheet">
+  <link href="src/css/style.css" rel="stylesheet">
+  <link href="src/css/ihover.min.css" rel="stylesheet">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
 
-    <!--AOS JS Library-->
-    <script src="./src/js/aos.js"></script>
+  <!--AOS JS Library-->
+  <script src="./src/js/aos.js"></script>
 </head>
 
 <body id="particles-js">
-    <div class="loader">
-        <div class="cssload-triangles">
-            <div class="cssload-tri cssload-invert"></div>
-            <div class="cssload-tri"></div>
-            <div class="cssload-tri cssload-invert"></div>
-            <div class="cssload-tri"></div>
-            <div class="cssload-tri cssload-invert"></div>
-            <div class="cssload-tri"></div>
-        </div>
+  <div class="loader">
+    <div class="cssload-triangles">
+      <div class="cssload-tri cssload-invert"></div>
+      <div class="cssload-tri"></div>
+      <div class="cssload-tri cssload-invert"></div>
+      <div class="cssload-tri"></div>
+      <div class="cssload-tri cssload-invert"></div>
+      <div class="cssload-tri"></div>
     </div>
-    <div class="wrapper">
-        <script>
-            AOS.init();
-        </script>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
-            <a class="navbar-brand text-white" href="./">
-                <span class="thicc">HEBRON</span> TSA</a>
-            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler"
-                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
-                            href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
-                        <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                            <a class="dropdown-item" href="about-members.html">About Our Members</a>
-                            <a class="dropdown-item" href="members.html">Help for Members</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center text-white" href="gallery.html">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
-                            href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
-                        <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                            <a class="dropdown-item" href="timeline.html">History</a>
-                            <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
-                            <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="splash">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <h1 class="animated1 bounceInLeft" id="tsa">HEBRON
-                            <span class="thin text-center">TSA</span>
-                        </h1>
-                    </div>
-                    <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease">
-                        <br>
-                        <i class="chevron bottom"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="main">
-            <div class="title" data-aos="zoom-down">
-                <h2>A Brief History</h2>
-            </div>
-            <div class="row white-block shadow" data-aos="fade-right">
-                <div class="order-2 order-lg-1 col-md-12 col-lg-6">
-                    <p>Hebron’s TSA Chapter was established in 1999, the same year the high school opened. With just 8 members
-                        at its launch, the team has grown tremendously in size as it presently has over 100 members, only
-                        looking to expand its reach and influence throughout the school. According to Scot Finch, the principal
-                        of Hebron High School, the reason for bringing TSA to Hebron at its opening was the need for an extracurricular
-                        club that encouraged the development of STEM-based classes, promoted leadership development, and
-                        included competitive opportunities for students. In the past, Engineering and Architectural Design
-                        instructor, Dale Rodgers, was the advisor and sponsor of Hebron TSA; however, he has recently left
-                        the school, leaving many of the responsibilities of running the chapter in the hands of the students.
-                        Hebron TSA hopes to continue to flourish this competitive season despite Mr. Rodger’s departure.</p>
-                </div>
-                <div class="order-1 order-lg-2 col-md-12 col-lg-6 text-center">
-                    <img alt="Chapter Pic" id="chapter" src="src/imgs/chapter.jpg">
-                </div>
-            </div>
-            <div class="row white-block shadow text-center" data-aos="fade-left">
-                <iframe allowfullscreen frameborder='0' height='650' src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11Q2G653Ga11pZyiAegwu3w1eqkGlXVEOzf31KduK7jM&font=Default&lang=en&initial_zoom=2&height=650'
-                    width='100%'></iframe>
-            </div>
-            <div class="title" data-aos="zoom-down">
-                <h2>Instructors</h2>
-            </div>
-            <div class="row white-block shadow instructors" data-aos="fade-right">
-                <div class="col-md-12 col-lg-3 text-center">
-                    <img src="src/imgs/rodgers.jpeg">
-                </div>
-                <div class="col-md-12 col-lg-9">
-                    <h5>Dale "Montana" Rodgers</h5>
-                    <p>A long time Architecture and Engineering Design teacher at Hebron High School, Dale Rodgers has been
-                        spearheading the Hebron TSA chapter for almost a decade. During his time, the club had drastically
-                        expanded and more students competed at the State and National levels with each progressing year.
-                        However, about a few weeks ago, Rodgers left his job at Hebron High School to work at the Kubota
-                        Corporation. Although Mr. Rodgers has left, he will checking-up on and visiting the chapter frequently.</p>
-                </div>
-            </div>
-            <div class="row white-block shadow instructors" data-aos="fade-left">
-                <div class="col-md-12 col-lg-9 order-2 order-lg-1">
-                    <h5>Dianne Weaver</h5>
-                    <p>Dianne Weaver has been teaching Fashion Design and co-leading the Hebron TSA Chapter for many years.
-                        After the departure of Dale Rodgers, Ms. Weaver was selected to lead the TSA Chapter at Hebron. She
-                        has graciously accepted the position, hoping to take the Hebron TSA to new heights and continue the
-                        legacy of Mr. Rodgers.</p>
-                </div>
-                <div class="col-md-12 col-lg-3 text-center order-1 order-lg-2">
-                    <img src="src/imgs/weaver.png">
-                </div>
-            </div>
-            <div class="title" data-aos="zoom-down">
-                <h2>Officers</h2>
-            </div>
-            <div class="row officers text-center" data-aos="fade-right">
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#arpan" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/arpan.jpg" alt="Arpan, the President" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Arpan Patel</h3>
-                                <p>President</p>
-                                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#patrick" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/patrick.jpg" alt="Patrick, the Vice President" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Patrick Allen</h3>
-                                <p>Vice President</p>
-                                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#rahul" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/rahul.jpg" alt="Rahul, the Secretary" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Rahul Venna</h3>
-                                <p>Secretary</p>
-                                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row officers text-center" data-aos="fade-left">
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#ammar" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/ammar.png" alt="Ammar, the Treasurer" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Ammar Dharani</h3>
-                                <p>Treasurer</p>
-                                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#riya" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/riya.jpg" alt="Riya, the Reporter" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Riya Gupta</h3>
-                                <p>Reporter</p>
-                                <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="ih-item square colored effect13 bottom_to_top">
-                        <a data-target="#alizer" data-toggle="modal">
-                            <div class="img">
-                                <img src="src/imgs/alizer.jpg" alt="Alizer, the Sergeant of Arms" height="100%" width="100%">
-                            </div>
-                            <div class="info">
-                                <h3>Alizer Khowaja</h3>
-                                <p>Sergeant of Arms</p>
-                                <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Modals-->
-        <div class="modal fade" id="arpan" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">President - Arpan Patel</h4>
-                        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Arpan has served in a myriad of leadership roles since joining TSA in 9th grade. His Biotechnology
-                            Design team has consistently placed high in the National TSA Conference. As a senior, Arpan hopes
-                            to study pre-med at UTD next year.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="patrick">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Vice President - Patrick Allen</h4>
-                        <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>A member of TSA since his freshman year, Patrick Allen has drastically improved the Hebron Robotics
-                            Team and is currently the team captain. As a senior, Patrick strives for his team to compete
-                            at the National TSA Conference. Patrick will be attending the University of Texas at Austin this
-                            upcoming year, studying Electrical Engineering.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="rahul">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Secretary - Rahul Venna</h4>
-                        <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>In his 4 years of being involved in TSA, Rahul has served various leadership positions and has consistently
-                            advanced to the State and National Conferences. This year, Rahul hopes to bring his Biotech team
-                            to Nationals once again. Rahul will be studying Biochemistry at the University of Texas at Dallas
-                            this upcoming year.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="ammar">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Treasurer - Ammar Dharani</h4>
-                        <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>A member of TSA since his sophomore year, Ammar has served vigorously to improve the TSA chapter
-                            by introducing interactive activities and increasing club membership. This year, Ammar is running
-                            for the Texas TSA State President and hopes to qualify for Nationals in the Webmaster event.
-                            Ammar hopes to study Biochemistry and Computer Science at Duke University.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="riya">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Reporter - Riya Gupta</h4>
-                        <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Riya has been involved in TSA since her freshman year and since then, she has qualified for Nationals
-                            in the SciVis event and has been a finalist for the Music Production at the State conference.
-                            After high school, Riya hopes to major in Bagpipe Studies at Carnegie Mellon University in Pittsburgh.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="alizer">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-left">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Sergeant of Arms - Alizer Khowaja</h4>
-                        <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Alizer, a member of TSA since his freshman year, has played a key role in the Hebron chapter’s recovery
-                            after Mr. Rodgers had left. Throughout his 4 years in TSA, Alizer has consistently qualified
-                            and placed in the Region and State conference in both Technology Problem Solving and Dragster
-                            Design.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="card-footer text-center text-white bg-dark">
-        Created with &hearts; by
-        <a class="text-white" style="text-decoration: underline;" href="https://github.com/TheHebronTSA">The Hebron TSA</a> | No templates in use.
-    </footer>
-    <script src="./src/js/jquery-3.3.1.min.js"></script>
-    <script src="src/js/popper.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/particles.min.js"></script>
-    <script src="src/js/app.min.js"></script>
-    <script src="src/js/navbar.min.js"></script>
-    <script src="./src/js/scroll.min.js"></script>
-    <script src="src/js/prognroll.min.js"></script>
+  </div>
+  <div class="wrapper">
     <script>
-        $(function () {
-            $("body").prognroll();
-        });
+      AOS.init();
     </script>
-    <script type="text/javascript">
-        $(window).bind("load", function () {
+    <nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
+      <a class="navbar-brand text-white" href="./">
+        <span class="thicc">HEBRON</span> TSA</a>
+      <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler"
+        data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
+              href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
+            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+              <a class="dropdown-item" href="about-members.html">About Our Members</a>
+              <a class="dropdown-item" href="members.html">Help for Members</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-center text-white" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
+              href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
+            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+              <a class="dropdown-item" href="timeline.html">History</a>
+              <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
+              <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="splash">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1 class="animated1 bounceInLeft" id="tsa">HEBRON
+              <span class="thin text-center">TSA</span>
+            </h1>
+          </div>
+          <span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease">
+            <br>
+            <i class="chevron bottom"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="main">
+      <div class="title" data-aos="zoom-down">
+        <h2>A Brief History</h2>
+      </div>
+      <div class="row white-block shadow" data-aos="fade-right">
+        <div class="order-2 order-lg-1 col-md-12 col-lg-6">
+          <p>Hebron’s TSA Chapter was established in 1999, the same year the high school opened. With just 8 members at its
+            launch, the team has grown tremendously in size as it presently has over 100 members, only looking to expand
+            its reach and influence throughout the school. According to Scot Finch, the principal of Hebron High School,
+            the reason for bringing TSA to Hebron at its opening was the need for an extracurricular club that encouraged
+            the development of STEM-based classes, promoted leadership development, and included competitive opportunities
+            for students. In the past, Engineering and Architectural Design instructor, Dale Rodgers, was the advisor and
+            sponsor of Hebron TSA; however, he has recently left the school, leaving many of the responsibilities of running
+            the chapter in the hands of the students. Hebron TSA hopes to continue to flourish this competitive season despite
+            Mr. Rodger’s departure.
+          </p>
+        </div>
+        <div class="order-1 order-lg-2 col-md-12 col-lg-6 text-center">
+          <img alt="Chapter Pic" id="chapter" src="src/imgs/chapter.jpg">
+        </div>
+      </div>
+      <div class="row white-block shadow text-center" data-aos="fade-left">
+        <iframe allowfullscreen frameborder='0' height='650' src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11Q2G653Ga11pZyiAegwu3w1eqkGlXVEOzf31KduK7jM&font=Default&lang=en&initial_zoom=2&height=650'
+          width='100%'></iframe>
+      </div>
+      <div class="title" data-aos="zoom-down">
+        <h2>Instructors</h2>
+      </div>
+      <div class="row white-block shadow instructors" data-aos="fade-right">
+        <div class="col-md-12 col-lg-3 text-center">
+          <img src="src/imgs/rodgers.jpeg">
+        </div>
+        <div class="col-md-12 col-lg-9">
+          <h5>Dale "Montana" Rodgers</h5>
+          <p>A long time Architecture and Engineering Design teacher at Hebron High School, Dale Rodgers has been spearheading
+            the Hebron TSA chapter for almost a decade. During his time, the club had drastically expanded and more students
+            competed at the State and National levels with each progressing year. However, about a few weeks ago, Rodgers
+            left his job at Hebron High School to work at the Kubota Corporation. Although Mr. Rodgers has left, he will
+            checking-up on and visiting the chapter frequently.
+          </p>
+        </div>
+      </div>
+      <div class="row white-block shadow instructors" data-aos="fade-left">
+        <div class="col-md-12 col-lg-9 order-2 order-lg-1">
+          <h5>Dianne Weaver</h5>
+          <p>Dianne Weaver has been teaching Fashion Design and co-leading the Hebron TSA Chapter for many years. After the
+            departure of Dale Rodgers, Ms. Weaver was selected to lead the TSA Chapter at Hebron. She has graciously accepted
+            the position, hoping to take the Hebron TSA to new heights and continue the legacy of Mr. Rodgers.
+          </p>
+        </div>
+        <div class="col-md-12 col-lg-3 text-center order-1 order-lg-2">
+          <img src="src/imgs/weaver.png">
+        </div>
+      </div>
+      <div class="title" data-aos="zoom-down">
+        <h2>Officers</h2>
+      </div>
+      <div class="row officers text-center" data-aos="fade-right">
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#arpan" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/arpan.jpg" alt="Arpan, the President" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Arpan Patel</h3>
+                <p>President</p>
+                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#patrick" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/patrick.jpg" alt="Patrick, the Vice President" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Patrick Allen</h3>
+                <p>Vice President</p>
+                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#rahul" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/rahul.jpg" alt="Rahul, the Secretary" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Rahul Venna</h3>
+                <p>Secretary</p>
+                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row officers text-center" data-aos="fade-left">
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#ammar" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/ammar.png" alt="Ammar, the Treasurer" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Ammar Dharani</h3>
+                <p>Treasurer</p>
+                <button type="button" class="btn btn-dark" data-target="#arpan" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#riya" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/riya.jpg" alt="Riya, the Reporter" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Riya Gupta</h3>
+                <p>Reporter</p>
+                <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="ih-item square colored effect13 bottom_to_top">
+            <a data-target="#alizer" data-toggle="modal">
+              <div class="img">
+                <img src="src/imgs/alizer.jpg" alt="Alizer, the Sergeant of Arms" height="100%" width="100%">
+              </div>
+              <div class="info">
+                <h3>Alizer Khowaja</h3>
+                <p>Sergeant of Arms</p>
+                <button type="button" class="btn btn-dark" data-target="#riya" data-toggle="modal">Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modals-->
+    <div class="modal fade" id="arpan" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">President - Arpan Patel</h4>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Arpan has served in a myriad of leadership roles since joining TSA in 9th grade. His Biotechnology Design team
+              has consistently placed high in the National TSA Conference. As a senior, Arpan hopes to study pre-med at UTD
+              next year.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="patrick">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Vice President - Patrick Allen</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>A member of TSA since his freshman year, Patrick Allen has drastically improved the Hebron Robotics Team and
+              is currently the team captain. As a senior, Patrick strives for his team to compete at the National TSA Conference.
+              Patrick will be attending the University of Texas at Austin this upcoming year, studying Electrical Engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="rahul">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Secretary - Rahul Venna</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>In his 4 years of being involved in TSA, Rahul has served various leadership positions and has consistently advanced
+              to the State and National Conferences. This year, Rahul hopes to bring his Biotech team to Nationals once again.
+              Rahul will be studying Biochemistry at the University of Texas at Dallas this upcoming year.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ammar">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Treasurer - Ammar Dharani</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>A member of TSA since his sophomore year, Ammar has served vigorously to improve the TSA chapter by introducing
+              interactive activities and increasing club membership. This year, Ammar is running for the Texas TSA State
+              President and hopes to qualify for Nationals in the Webmaster event. Ammar hopes to study Biochemistry and
+              Computer Science at Duke University.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="riya">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Reporter - Riya Gupta</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>Riya has been involved in TSA since her freshman year and since then, she has qualified for Nationals in the
+              SciVis event and has been a finalist for the Music Production at the State conference. After high school, Riya
+              hopes to major in Bagpipe Studies at Carnegie Mellon University in Pittsburgh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="alizer">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Sergeant of Arms - Alizer Khowaja</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>Alizer, a member of TSA since his freshman year, has played a key role in the Hebron chapter’s recovery after
+              Mr. Rodgers had left. Throughout his 4 years in TSA, Alizer has consistently qualified and placed in the Region
+              and State conference in both Technology Problem Solving and Dragster Design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="card-footer text-center text-white bg-dark">
+    Created with &hearts; by
+    <a class="text-white" style="text-decoration: underline;" href="https://github.com/TheHebronTSA">The Hebron TSA</a> | No templates in use.
+  </footer>
+  <script src="./src/js/jquery-3.3.1.min.js"></script>
+  <script src="src/js/popper.min.js"></script>
+  <script src="src/js/bootstrap.min.js"></script>
+  <script src="src/js/particles.min.js"></script>
+  <script src="src/js/app.min.js"></script>
+  <script src="src/js/navbar.min.js"></script>
+  <script src="./src/js/scroll.min.js"></script>
+  <script src="src/js/prognroll.min.js"></script>
+  <script>
+    $(function () {
+      $("body").prognroll();
+    });
+  </script>
+  <script type="text/javascript">
+    $(window).bind("load", function () {
 
-            $('.loader').fadeOut(200);
-        });
-    </script>
+      $('.loader').fadeOut(200);
+    });
+  </script>
 </body>
 
 </html>
