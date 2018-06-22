@@ -73,9 +73,7 @@ nav.navbar.inverse {
   transition-timing-function: ease-out;
 }
 
-.hvr-underline-from-center:hover:before,
-.hvr-underline-from-center:focus:before,
-.hvr-underline-from-center:active:before {
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
@@ -209,7 +207,7 @@ button {
   font-weight: 900;
 }
 
-.demo-1 .main-title {
+.robot .main-title {
   text-transform: uppercase;
   font-size: 4.2em;
   letter-spacing: 0.1em;
@@ -224,7 +222,7 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
-  .demo-1 .main-title, {
+  .robot .main-title, {
     font-size: 3em;
   }
 }
