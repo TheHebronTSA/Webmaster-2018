@@ -209,8 +209,7 @@ button {
   font-weight: 900;
 }
 
-.demo-1 .main-title,
-.demo-3 .main-title {
+.demo-1 .main-title {
   text-transform: uppercase;
   font-size: 4.2em;
   letter-spacing: 0.1em;
@@ -225,12 +224,7 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
-  .demo-1 .main-title,
-  .demo-3 .main-title,
-  .demo-4 .main-title {
+  .demo-1 .main-title, {
     font-size: 3em;
-  }
-  .demo-2 .main-title {
-    font-size: 4em;
   }
 }
