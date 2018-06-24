@@ -3,51 +3,73 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Hebron TSA | Gallery</title>
+  <title>Responsive pure CSS image gallery with CSS Grid ✨</title>
 
-  <link href="src/css/jquery.fancybox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="src/css/gallery.css">
 </head>
 
 <body>
-  <div class="stars"></div>
-  <div class="twinkling"></div>
-  <div class="clouds"></div>
-  <div id="contentContainer" class="trans3d">
-    <section id="carouselContainer" class="trans3d">
-      <figure id="item1" class="carouselItem trans3d">
-        <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/dale.jpg">
-          <img src="src/imgs/dale.jpg" />
-        </a>
-      </figure>
-      <figure id="item2" class="carouselItem trans3d">
-        <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/spinning-gallery/looking-down.jpg">
-          <img src="src/imgs/spinning-gallery/looking-down.jpg" />
-        </a>
-      </figure>
-      <figure id="item3" class="carouselItem trans3d">
-          <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/spinning-gallery/regionals.jpg">
-            <img src="src/imgs/spinning-gallery/regionals.jpg" />
-          </a>
-      </figure>
-      <figure id="item4" class="carouselItem trans3d">
-          <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/spinning-gallery/squad.jpg">
-            <img src="src/imgs/spinning-gallery/squad.jpg" />
-          </a>
-      </figure>
-      <figure id="item5" class="carouselItem trans3d">
-          <a data-fancybox="images" class="carouselItemInner trans3d" href="src/imgs/spinning-gallery/waterfall.jpg">
-            <img src="src/imgs/spinning-gallery/waterfall.jpg" />
-          </a>
-      </figure>
-    </section>
+  <input class="gallery__select" type="radio" name="gallery-select" id="0" checked="checked"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="1"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="2"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="3"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="4"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="5"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="6"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="7"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="8"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="9"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="10"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="11"/>
+  <input class="gallery__select" type="radio" name="gallery-select" id="12"/>
+  <div class="gallery">
+    <div class="gallery__filler"></div>
+    <div class="gallery__filler"></div>
+    <label class="gallery__item">
+      <img src="src/imgs/gallery/looking-down.jpg" alt="Boys looking down">
+    </label>
+    <label class="gallery__item">
+      <img src="src/imgs/gallery/regionals.jpg" alt="The chapter at Regionals">
+    </label>
+    <label class="gallery__item">
+      <img src="src/imgs/gallery/squad.jpg" alt="Robotics squad">
+    </label>
+    <label class="gallery__item">
+      <img src="src/imgs/gallery/waterfall.jpg" alt="Team at waterfall">
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=7" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=12" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=13" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=8" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=10" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    </label>
+    <label class="gallery__item">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=27" alt="Something random" />
+    </label>
   </div>
-  <script src='src/js/TweenMax.min.js'></script>
-  <script src="src/js/jquery-3.3.1.min.js"></script>
-  <script src="src/js/jquery.fancybox.min.js"></script>
-  <script src="src/js/gallery.js"></script>
 </body>
 
 </html>
