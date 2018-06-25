@@ -6,7 +6,7 @@ var questions = [
   'It was nice talking you :)'
 ];
 
-var waitTimeInMilliseconds = 2300;
+var waitTimeInMilliseconds = 2700;
 var totalQuestions = questions.length - 1;
 var num = 0;
 
