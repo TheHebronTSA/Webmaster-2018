@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  -webkit-animation: fadeIn 0.75s;
-  animation: fadeIn 0.75s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 body {
-  background: linear-gradient(60deg, #000, #000 20%, #38458C);
+  background: linear-gradient(65deg, #000, #000 20%, #3F458C);
   display: grid;
+  width: 100vw;
   padding-top: 20px;
   margin: 0;
 }
@@ -22,6 +23,7 @@ img {
   height: 100%;
   width: 100%;
   min-height: 50px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 

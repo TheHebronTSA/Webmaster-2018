@@ -4,113 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Responsive pure CSS image gallery with CSS Grid ✨</title>
+  <title>Hebron TSA | Gallery</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="src/css/gallery.css">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top text-white">
-      <a class="navbar-brand text-white" href="./">
-        <span class="thicc">HEBRON</span> TSA</a>
-      <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler"
-        data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
-              href="about-members.html" id="navbarDropdownMenuLink">MEMBERS</a>
-            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-              <a class="dropdown-item" href="about-members.html">About Our Members</a>
-              <a class="dropdown-item" href="members.html">Help for Members</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center text-white" href="gallery.html">GALLERY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center text-white" href="love.html">WHY WE LOVE TSA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center text-white" href="stem.html">STEM @ HEBRON</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a aria-expanded="false" aria-haspopup="true" class="nav-link hvr-underline-from-center text-white dropdown-toggle" data-toggle="dropdown"
-              href="robot.html" id="navbarDropdownMenuLink">ROBOTS AND AI</a>
-            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-              <a class="dropdown-item" href="timeline.html">History</a>
-              <a class="dropdown-item" href="ai-today.html">AI in Today's World</a>
-              <a class="dropdown-item" href="robot.html">ZUBE Robotics</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hvr-underline-from-center text-white" href="about.html">ABOUT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  <input class="gallery__select" type="radio" name="gallery-select" id="0" checked="checked"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="1"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="2"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="3"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="4"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="5"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="6"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="7"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="8"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="9"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="10"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="11"/>
-  <input class="gallery__select" type="radio" name="gallery-select" id="12"/>
+
+
+  <input class="gallery__select" type="radio" name="gallery-select" id="0" checked="checked" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="1" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="2" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="3" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="4" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="5" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="6" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="7" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="8" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="9" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="10" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="11" />
+  <input class="gallery__select" type="radio" name="gallery-select" id="12" />
   <div class="gallery">
     <div class="gallery__filler"></div>
     <div class="gallery__filler"></div>
-    <label class="gallery__item">
+    <label class="gallery__item" for="0">
       <img src="src/imgs/gallery/looking-down.jpg" alt="Boys looking down">
     </label>
-    <label class="gallery__item">
+    <label class="gallery__item" for="1">
       <img src="src/imgs/gallery/regionals.jpg" alt="The chapter at Regionals">
     </label>
-    <label class="gallery__item">
+    <label class="gallery__item" for="2">
       <img src="src/imgs/gallery/squad.jpg" alt="Robotics squad">
     </label>
-    <label class="gallery__item">
+    <label class="gallery__item" for="3">
       <img src="src/imgs/gallery/waterfall.jpg" alt="Team at waterfall">
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=7" alt="Something random" />
+    <label class="gallery__item" for="4">
+      <img src="src/imgs/STEM/smaller/kennet.jpg" alt="kennet">
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=12" alt="Something random" />
+    <label class="gallery__item" for="5">
+      <img src="src/imgs/community-service/boy-cleans-up.JPG" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=13" alt="Something random" />
+    <label class="gallery__item" for="6">
+      <img src="src/imgs/fun-times/pratik.jpg" alt="Pratik" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=8" alt="Something random" />
+    <label class="gallery__item" for="7">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=20" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    <label class="gallery__item" for="8">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=11" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=10" alt="Something random" />
+    <label class="gallery__item" for="9">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=23" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    <label class="gallery__item" for="10">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=24" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=15" alt="Something random" />
+    <label class="gallery__item" for="11">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=19" alt="Something random" />
     </label>
-    <label class="gallery__item">
-      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=27" alt="Something random" />
+    <label class="gallery__item" for="12">
+      <img src="https://source.unsplash.com/random/400x400?bear,cat&amp;v=31" alt="Something random" />
     </label>
   </div>
+
+
+
+  <script src="js/index.js"></script>
+
+
+
+
 </body>
 
 </html>
