@@ -21,13 +21,13 @@ function showResponse() {
     let response = '';
     switch (num) {
       case 1:
-        response = `${input} is a nice place. According to Google Maps, ${input} is 34 minutes away from here. `;
+        response = `${input} seems like a nice place. If you'd like, I could book a flight to ${input} now.`;
         break;
       case 2:
         response = `So, you were born in ${2018 - input}! That's was a great year.`;
         break;
       case 3:
-        response = `${input} is a great movie! It's playing @ AMC Palace 3 miles away`;
+        response = `${input} is a great movie! I can stream ${input} to any of your devices if you'd like.`;
         break;
       default:
         response = `Hello, ${input}!`;
