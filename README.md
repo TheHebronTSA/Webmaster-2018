@@ -8,4 +8,7 @@
 In the spirit of improving web design and development amongst all TSA members and high schoolers, we have decided to make our code public. Moreover, by making our code public, we will be able to show our different Webmaster projects each competitive season and encourage abidance to the rule put in place by the TSA stating that "all design, content, and markup/code must be the product of the current school year."
 
 ## How did this project fare against the competition?
-After automatically advancing from the regional competition to the Texas State conference, this project received 2nd place in finals, meaning that the group has qualified for the TSA National conference which will take place in late June 2018.
+After automatically advancing from the regional competition to the Texas State conference, this project received 2nd place in finals, meaning that the group qualified for the TSA National conference. After presenting in the National semifinalist interview, the team received 3rd place in finals.
+
+## So... I can just copy your code, right?
+Technically, yes. However, because our code is so explicitly public, don't be surprised when you get caught cheating or breaking competition regulations (something that happened to another team in our State this year). Instead of copying, we challenge all TSA members to utilize their creativity and create sites that surpass the level of this one. Also keep in mind that the website alone is not what determines your score or placement. We think the reason why we placed so high at Nationals was because of our thorough documentation, ability to articulate in the interview, and genuine passion for our project.
