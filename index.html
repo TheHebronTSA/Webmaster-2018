@@ -172,6 +172,14 @@
   </style>
   <!--End Preloader-->
 
+  <!--Disclaimer Modal-->
+  <script src="src/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#disc').modal('show');
+    });
+  </script>
+
   <!--Favicon/Theme-->
   <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
   <link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -305,8 +313,8 @@
           <p>A long time Architecture and Engineering Design teacher at Hebron High School, Dale Rodgers has been spearheading
             the Hebron TSA chapter for almost a decade. During his time, the club had drastically expanded and more students
             competed at the State and National levels with each progressing year. However, about a few weeks ago, Rodgers
-            left his job at Hebron High School to work at the Kubota Corporation. Although Mr. Rodgers has left, he will be
-            checking-up on and visiting the chapter frequently.
+            left his job at Hebron High School to work at the Kubota Corporation. Although Mr. Rodgers has left, he will
+            be checking-up on and visiting the chapter frequently.
           </p>
         </div>
       </div>
@@ -415,6 +423,21 @@
       </div>
     </div>
     <!--Modals-->
+    <div class="modal fade" id="disc">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+            <h4 class="modal-title">Welcome!</h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>After a long competitive season, the Hebron TSA Webmaster team received 3rd place at the 2018 TSA National Conference.
+              We'd like to thank our sponsors, supporters, and everyone who was involved in the creation of this website.
+              Feel free to look around!</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="modal fade" id="arpan" role="dialog" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content text-left">
@@ -516,9 +539,10 @@
     </div>
   </div>
   <footer class="card-footer text-center text-white bg-dark">
-    Created with &hearts; by <a class="text-white" style="text-decoration: underline;" href="https://github.com/TheHebronTSA">The Hebron TSA</a> | No templates in use.
+    Created with &hearts; by
+    <a class="text-white" style="text-decoration: underline;" href="https://github.com/TheHebronTSA">The Hebron TSA</a> | No templates in use.
   </footer>
-  <script src="./src/js/jquery-3.3.1.min.js"></script>
+
   <script src="src/js/popper.min.js"></script>
   <script src="src/js/bootstrap.min.js"></script>
   <script src="src/js/particles.min.js"></script>
