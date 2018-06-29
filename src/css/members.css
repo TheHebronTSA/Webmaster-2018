@@ -441,3 +441,7 @@ nav.navbar.inverse {
   margin: 0.5rem auto;
   width: 25rem;
 }
+
+.para-2, .para-3, .para-4, .para-5 {
+  display: none;
+}
